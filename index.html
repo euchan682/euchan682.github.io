@@ -1,0 +1,272 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head> 
+
+		<title>Eunice Chan</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<header> 
+
+			<div class="left">
+				<ul>
+					<li>
+						<a onclick="document.getElementById('eunice-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">home</a>
+					</li>
+					<li>
+						<a onclick="document.getElementById('about-me-id').scrollIntoView({behavior:'smooth', block:'start', inline:'nearest'})">about</a>
+					</li>
+					
+				</ul>
+			</div>
+
+			<div class="right">
+				<ul> 
+					<li><a onclick="document.getElementById('dailyui-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">projects</a></li>
+					<li><a onclick="document.getElementById('contact-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">contact</a></li>
+
+				</ul> 
+			</div>
+
+
+		</header>
+
+		<div class="main-content">
+			
+			<div class="top-box" id="top-box-box">
+				<a href="">
+				<!-- <img src="education_icon.svg"/> -->
+				<p>Hi! I'm Eunice and welcome to my website.</p>
+				</a>
+
+
+				<div class="invisible-element" id="eunice-id">
+				</div>
+		
+			</div>
+			<div class="about-me" id="about-me-box">
+
+				<div class="description-section">
+					<img src="education_icon.svg"/> 
+
+					<div id="description-section-title">
+						<p>Education</p> 
+					</div>
+
+					<ul>
+						<li> University of California, San Diego </li>
+						<li> Cognitive Science (HCI) Major & Computer Science Minor </li>
+						<li> Expected Graduation: June 2020 </li>
+					</ul>
+
+			
+				
+			</div>
+
+				<div class="description-section"> 
+					<img src="experience_icon.svg"/>
+
+					<div id="description-section-title">
+						<p>Experience</p>
+					</div>
+
+					<ul>
+						<li> Media, Arts, Communication Team Member</li>
+						<li> Design For America Project Member </li>
+						<li> Some job or Adwave </li>
+					</ul>
+				</div>
+				
+				<div class="description-section">
+					<img src="skills_icon.svg"/>
+
+					<div id="description-section-title">
+						<p>Skills</p>
+					</div>
+
+					<ul>
+						<li> Sketch 3, Adobe Lightroom, Adobe Illustrator</li>
+						<li> Java </li>
+						<li> HTML & CSS </li>
+					</ul>
+				</div>
+				
+
+
+				<div id= "about-me-title">
+					<p>about me</p> 
+				</div>
+
+				<p>Hello! I’m Eunice and I’m a current sophomore at UCSD. I have a big passion for graphic art but I also have a strong budding interest in how modern technology, our physical bodies, and the wonder of creativity magically work together. My website is a steadily growing collection of some work that I truly enjoyed creating whether it was using photography, design, or computer science. I'm a fanatic dog-lover, dessert foodie, and I'm proud to call the Bay Area my home. </p>
+
+				<button class="mybutton colorbutton" onclick="window.open('https://docs.google.com/document/d/1hMcGv1mxRahsE_X2H6XI6Q7Igcut__eUfr8nZ2ogKMU/edit?usp=sharing')">download resume</button>
+
+				<div class="invisible-element" id="about-me-id">
+				</div>
+			</div>
+
+			<div class="projects-main" id= "projects-main-box" style="height:550px;">
+				
+				<div class ="projects-section">
+					<img src="DailyUIChallengeImage.jpg" align="left">
+				</div>
+
+				<div id="projects-title"> 
+					<p>Projects I've Worked On</p>
+				</div>
+
+				<div id="projects-subheader">
+					<p >100 Days of UI</p>
+				</div>
+
+				<p>The 100 Days of UI challenge is a design challenge where participants take on a User Interface design prompt for 100 days. I am currently in the progress of undertaking this challenge to further my visual design skills and to challenge myself at creating better design solutions.</p>
+
+				<!--<button class="uibutton colorbutton">learn more</button>-->
+				
+				<div class="invisible-element" id="dailyui-id">
+				</div>
+			</div>
+
+			<div class="projects-main" style="height:680px;">
+				
+				<!--<img src="../../../LA 2017/IMG_5991 copy.jpg"/> -->
+				<div class ="cogsci-section">
+					<img src="CogSciWebContestImage.png" align="left">
+				</div>
+
+				<div id="projects-subheader">
+					<p style="top: 35px;">CogSci Web Contest Online Banners</p>
+				</div>
+
+				<p style="top:100px;"> The UCSD Department of Cognitive Science held a contest for the purpose of revamping the department website. Submissions needed to include varying elements of the six specializations the Cogntive Science Major had to offer: Language and Culture, Design and Interaction, Neuroscience, Machine Learning, Clinical Aspects, and Cognitive Behavioral Neuroscience.</p> 
+
+				<p style="top:225px;"> For this project, I wanted to create a minimalistic design that incorporated the necessary graphic and artistic elements that fulfilled the submission requirements. I looked at different department websites as references and guides. I intended for each specialization to have a banner of it's own so I wanted to use a design that was replicable and flexible. I had the honor of being one of two winners for this contest.</p>
+
+				<!--<button class="cogscibutton colorbutton" >learn more</button> -->
+				
+			</div>
+
+			<div class="contact-main-section" id ="contact-id" style="height:500px;">
+
+				<div id ="contact-main-title">
+						<p> Get in Contact</p>
+					</div>
+
+				<div class = "contact-section"> 
+
+					<img src="phone_icon.svg" >
+						<div id ="contact-section-title">
+							<p> Phone</p>
+						</div>
+
+					<p>510.566.6499</p>
+				</div>
+
+				<div class = "contact-section"> 
+
+					<img src="email_icon.svg" >
+						<div id ="contact-section-title">
+							<p> Email</p>
+						</div>
+					<p>euchan@ucsd.edu</p>	
+				</div>
+				
+				<div class="invisible-element" id="contact-id">
+				</div>
+				
+
+		
+			</div>
+
+
+			<!-- <div class="projects-main">
+				
+				 
+				<div class ="projects-section">
+					<img src="filler_photo.jpg" align="left">
+				</div>
+
+				<div id="projects-title"> 
+					<p>Photography</p>
+				</div>
+
+				<div id="projects-subheader">
+					<p>sub header</p>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+				
+		
+			</div>
+
+			<div class="projects-main">
+				
+				s
+				<div class ="projects-section">
+					<img src="filler_photo.jpg" align="left">
+				</div>
+
+
+				<div id="projects-title"> 
+					<p>Computer Science</p>
+				</div>
+
+				<div id="projects-subheader">
+					<p>sub header</p>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+				
+		
+			</div> --> 
+
+
+			<!-- <div class ="about-me"> 
+		
+				<div id="projects-title"> 
+					<p>How To Contact Me</p>
+				</div>
+
+				<div class="projects-section">
+					<div id="projects-subheader">
+						<p style="top: 35px;">Email me</p>
+					</div>
+
+					<img src="education_icon.svg"/> 
+					<p>euchan@ucsd.edu</p>
+				
+				</div>
+
+				<div class="projects-section"> 
+
+					<div id="projects-subheader">
+						<p style="top: 35px;">Call me</p>
+					</div>
+
+					<img src="experience_icon.svg"/>
+					<p>510.566.6499</p>
+
+				</div>
+				
+				<div class="projects-section">
+
+					<div id="projects-subheader">
+						<p style="top: 35px;">Call me</p>
+					</div>
+
+					<img src="skills_icon.svg"/>
+					<a href="https://www.facebook.com/eunice.chan.980">Facebook</a>
+						
+				</div>
+				
+			</div> -->
+	
+		 </div>
+
+		<footer>
+			
+		</footer>
+	 </body>
+</html> 
