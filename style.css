@@ -7,21 +7,29 @@ html {
 
 body {
 	margin: 0 auto;
-	width:1000px;
 	width: 100%;
 	height:100%;
+    overflow: hidden;
 	font-family: Proxima Nova, Helvetica, sans-serif;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 .left a {
 	text-decoration: none;
 	color: #ffcc00;
-	cursor: #ffcc00;
+	cursor: pointer;
+    user-select: none;
 }
 
 .right a {
 	text-decoration: none;
 	color: #ffcc00;
+    cursor: pointer;
+    user-select: none;
 }
 
 header {
@@ -45,50 +53,44 @@ header {
 	height:100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
-
 }
 
-.left ul {
-	padding: 0; 
-
+#navbar {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    height: 30%;
+    min-height: 30px;
+    width: 100%;
+    color:#ffcc00;
 }
 
-.left li {
-	display: inline;
-	padding: 10px;
-	font-size: 20px;
+#left {
+    height: 100%;
+    width: 50%;
 }
 
-.right ul {
-	padding: 0; 
-
+#left .button{
+    position: absolute;
+    height: 25px;
+    font-size: 25px;
+    bottom: 5px;
+    user-select: none;
+    cursor: pointer;
 }
 
-.right li {
-	display: inline;
-	padding: 10px;
-	font-size: 20px;
+#right {
+    height: 100%;
+    width: 50%;
 }
 
-.left {
-	width: 320px;
-	float: left; 
-}
-
-.left ul {
-	padding-left: 30px;
-	padding-top: 20px;
-}
-
-.right {
-	width: 320px;
-	float: right;
-}
-
-.right ul {
-	float:right;
-	padding-right: 30px;
-	padding-top: 20px;
+#right .button{
+    position: absolute;
+    height: 25px;
+    font-size: 25px;
+    bottom: 5px;
+    user-select: none;
+    cursor: pointer;
 }
 
 /* work in progress*/ 
@@ -117,7 +119,8 @@ header {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .main-content {
-    *zoom: 1;
+    position: relative;
+    height: 100%;
     color: #FFFFFF;
  
 }
@@ -179,10 +182,12 @@ section {
 }
 
 .description-section {
+    position: relative;
 	width: 33%;
-	height:100%;
+	height: auto;
 	display: inline-block;
 	margin: 0 0;
+    margin-top: 2%;
 	float: left;
 }
 
@@ -237,53 +242,48 @@ section {
 }
 
 .about-me img {
-	padding-top:200px;
 	height: auto;
 	width: 50%;
 	
 }
 
 .about-me p {
-	position: absolute;
+	position: relative;
 	/*width: 100%;*/
-	top: 75px;
 	text-align: center;
 	font-size: 16px;
 	margin-left: 15px;
 	margin-right:15px;
+    margin-top: .5%;
 	color: #919394;
 
 }
 
-#about-me-title p {
-	position: absolute;
+#about-me-title {
+	position: relative;
 	width: 100%;
-	top: 5px;
 	text-align: center;
 	font-size: 50px;
-	margin-left: 15px;
 	color: #ffcc00;
-	margin-top: 30px;
+    margin-top: 1%;
 
 }
 
 .description-section ul {
 	list-style-type: circle;
-	margin-top: 50px;
-	padding: 0 20%;
+    margin: 6% 5%;
+	/*padding: 0 20%;*/
 	text-align: left;
 	color: #919394;
 }
 
-#description-section-title p {
-	position: absolute;
+#description-section-title {
+	position: relative;
 	width: 100%;
-	top: 390px;
 	font-size: 28px;
-	text-align: left;
+	text-align: center;
 	color: #ffcc00;
-	margin-left: 120px;
-	margin-top: 30px;
+    margin-top: 1%;
 }
 
 .mybutton {
@@ -295,7 +295,7 @@ section {
 	background-color: #919394;
 	color: white;
 	position:absolute;
-	top:85%;
+	top:80%;
 	left:40%;
 	font-family: Proxima Nova ,Helvetica, sans-serif; 
 	font-size: 16px; 
@@ -344,7 +344,7 @@ section {
 .projects-main {
 	position: relative;
 	width: 100%;
-	height: 675px;
+	height: auto;
 	float:left;
 	text-align: center;
 	overflow: hidden;
@@ -353,15 +353,45 @@ section {
 	color: #ffcc00;
 }
 
-.projects-section img {
-	box-shadow: 4px 4px 39px -3px rgba(0,0,0,0.75);
+.projects-section {
+    position: relative;
+    height: auto;
+    width: 100%;
+    float: left;
+}
 
-	margin-top:150px;
+.projects-section .img {
+	display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+	float: left;
+}
+
+.projects-section .img img {
+    position: relative;
+	box-shadow: 4px 4px 39px -3px rgba(0,0,0,0.75);
 	height: auto;
-	width: 40%;
-	height: 100%;
-	margin-left: 50px;
-	
+	width: 80%;
+    margin: 5% 10%;
+}
+
+.projects-section .desc {
+	display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+	float: left;
+}
+
+.projects-section .desc h1{
+    color: #003399;
+    margin-right: 10%;
+}
+.projects-section .desc p{
+    margin-right: 10%;
 }
 
 .cogsci-section img {
@@ -375,39 +405,22 @@ section {
 }
 
 
-.projects-main p {
-	position: absolute;
+.projects-main {
+	position: relative;
 	/*width: 100%;*/
-	top: 150px;
 	text-align: left;
 	font-size: 16px;
-	margin-left: 590px;
-	margin-right:15px;
 	color: #919394;
 
 }
 
-#projects-title p {
-	position: absolute;
+#projects-title {
+	position: relative;
 	width: 100%;
-	top: 5px;
 	text-align: center;
 	font-size: 50px;
-	margin-left: 15px;
 	color: #ffcc00;
-	margin-top: 30px;
-
-}
-
-#projects-subheader p {
-	position: absolute;
-	width: 100%;
-	top: 95px;
-	text-align: left;
-	font-size: 30px;
-	margin-left: 590px;
-	color: #003399;
-	margin-top: 30px;
+    margin-top: 3%;
 
 }
 

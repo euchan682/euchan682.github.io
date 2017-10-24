@@ -8,29 +8,27 @@
 	</head>
 
 	<body>
-		<header> 
-
-			<div class="left">
-				<ul>
-					<li>
-						<a onclick="document.getElementById('eunice-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">home</a>
-					</li>
-					<li>
-						<a onclick="document.getElementById('about-me-id').scrollIntoView({behavior:'smooth', block:'start', inline:'nearest'})">about</a>
-					</li>
-					
-				</ul>
-			</div>
-
-			<div class="right">
-				<ul> 
-					<li><a onclick="document.getElementById('dailyui-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">projects</a></li>
-					<li><a onclick="document.getElementById('contact-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">contact</a></li>
-
-				</ul> 
-			</div>
-
-
+		<header>
+            <div id="navbar">
+                <div id="left">
+                    <div class="button" style="left:15px;"    onclick="document.getElementById('eunice-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
+                        home
+                    </div>
+                    <div class="button" style="left:115px;"  onclick="document.getElementById('about-me-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
+                        about
+                    </div>
+                </div>
+                <div id="right">
+                    <div class="button" style="right:135px;" onclick="document.getElementById('dailyui-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
+                        projects
+                    </div>
+                    <div class="button" style="right:15px;" onclick="document.getElementById('contact-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
+                        contact
+                    </div>
+                </div>
+            </div>
+            
+            
 		</header>
 
 		<div class="main-content">
@@ -47,12 +45,22 @@
 		
 			</div>
 			<div class="about-me" id="about-me-box">
+                
+                
+
+				<div id= "about-me-title">
+					about me
+				</div>
+
+				<p>Hello! I’m Eunice and I’m a current sophomore at UCSD. I have a big passion for graphic art but I also have a strong budding interest in how modern technology, our physical bodies, and the wonder of creativity magically work together. My website is a steadily growing collection of some work that I truly enjoyed creating whether it was using photography, design, or computer science. I'm a fanatic dog-lover, dessert foodie, and I'm proud to call the Bay Area my home. </p>
+                
+                
 
 				<div class="description-section">
 					<img src="education_icon.svg"/> 
 
 					<div id="description-section-title">
-						<p>Education</p> 
+						Education
 					</div>
 
 					<ul>
@@ -69,13 +77,13 @@
 					<img src="experience_icon.svg"/>
 
 					<div id="description-section-title">
-						<p>Experience</p>
+						Experience
 					</div>
 
 					<ul>
 						<li> Media, Arts, Communication Team Member</li>
-						<li> Design For America Project Member </li>
-						<li> Some job or Adwave </li>
+						<li> Warren College Orientation Leader </li>
+						<!--<li> Some job or Adwave </li>-->
 					</ul>
 				</div>
 				
@@ -83,7 +91,7 @@
 					<img src="skills_icon.svg"/>
 
 					<div id="description-section-title">
-						<p>Skills</p>
+						Skills
 					</div>
 
 					<ul>
@@ -95,58 +103,58 @@
 				
 
 
-				<div id= "about-me-title">
-					<p>about me</p> 
-				</div>
-
-				<p>Hello! I’m Eunice and I’m a current sophomore at UCSD. I have a big passion for graphic art but I also have a strong budding interest in how modern technology, our physical bodies, and the wonder of creativity magically work together. My website is a steadily growing collection of some work that I truly enjoyed creating whether it was using photography, design, or computer science. I'm a fanatic dog-lover, dessert foodie, and I'm proud to call the Bay Area my home. </p>
-
 				<button class="mybutton colorbutton" onclick="window.open('https://docs.google.com/document/d/1hMcGv1mxRahsE_X2H6XI6Q7Igcut__eUfr8nZ2ogKMU/edit?usp=sharing')">download resume</button>
 
 				<div class="invisible-element" id="about-me-id">
 				</div>
 			</div>
 
-			<div class="projects-main" id= "projects-main-box" style="height:550px;">
-				
-				<div class ="projects-section">
-					<img src="DailyUIChallengeImage.jpg" align="left">
-				</div>
-
+			<div class="projects-main" id= "projects-main-box" >
 				<div id="projects-title"> 
-					<p>Projects I've Worked On</p>
+					Projects I've Worked On
 				</div>
+				<div class ="projects-section">
+                    <div class="img">
+					   <img src="DailyUIChallengeImage.jpg" align="left">
+                    </div>
+                    
+                    <div class="desc">
+                        <h1>
+                            100 Days of UI
+                        </h1>
 
-				<div id="projects-subheader">
-					<p >100 Days of UI</p>
+                        <p>The 100 Days of UI challenge is a design challenge where participants take on a User Interface design prompt for 100 days. I am currently in the progress of undertaking this challenge to further my visual design skills and to challenge myself at creating better design solutions.</p>
+                    </div>
+			 	   <!--<button class="uibutton colorbutton">learn more</button>-->
+
 				</div>
-
-				<p>The 100 Days of UI challenge is a design challenge where participants take on a User Interface design prompt for 100 days. I am currently in the progress of undertaking this challenge to further my visual design skills and to challenge myself at creating better design solutions.</p>
-
-				<!--<button class="uibutton colorbutton">learn more</button>-->
 				
 				<div class="invisible-element" id="dailyui-id">
 				</div>
+                
+                <div class="projects-section" style="border-top:#ffcc00 3px solid;">
+				
+                    <div class="img">
+                        <img src="CogSciWebContestImage.png">
+                    </div>
+
+                    <div class="desc">
+                        <h1>
+                            CogSci Web Contest Online Banners
+                        </h1>
+
+                        <p> The UCSD Department of Cognitive Science held a contest for the purpose of revamping the department website. Submissions needed to include varying elements of the six specializations the Cogntive Science Major had to offer: Language and Culture, Design and Interaction, Neuroscience, Machine Learning, Clinical Aspects, and Cognitive Behavioral Neuroscience.</p> 
+
+                        <p> For  this project, I wanted to create a minimalistic design that incorporated the necessary graphic and artistic elements that fulfilled the submission requirements. I looked at different department websites as references and guides. I intended for each specialization to have a banner of it's own so I wanted to use a design that was replicable and flexible. I had the honor of being one of two winners for this contest.</p>
+                        </div>
+
+
+                        <!--<button class="cogscibutton colorbutton" >learn more</button> -->
+
+                    </div>
 			</div>
 
-			<div class="projects-main" style="height:680px;">
-				
-				<!--<img src="../../../LA 2017/IMG_5991 copy.jpg"/> -->
-				<div class ="cogsci-section">
-					<img src="CogSciWebContestImage.png" align="left">
-				</div>
-
-				<div id="projects-subheader">
-					<p style="top: 35px;">CogSci Web Contest Online Banners</p>
-				</div>
-
-				<p style="top:100px;"> The UCSD Department of Cognitive Science held a contest for the purpose of revamping the department website. Submissions needed to include varying elements of the six specializations the Cogntive Science Major had to offer: Language and Culture, Design and Interaction, Neuroscience, Machine Learning, Clinical Aspects, and Cognitive Behavioral Neuroscience.</p> 
-
-				<p style="top:225px;"> For this project, I wanted to create a minimalistic design that incorporated the necessary graphic and artistic elements that fulfilled the submission requirements. I looked at different department websites as references and guides. I intended for each specialization to have a banner of it's own so I wanted to use a design that was replicable and flexible. I had the honor of being one of two winners for this contest.</p>
-
-				<!--<button class="cogscibutton colorbutton" >learn more</button> -->
-				
-			</div>
+			
 
 			<div class="contact-main-section" id ="contact-id" style="height:500px;">
 
