@@ -1,0 +1,647 @@
+
+html {
+	background-color: white;
+	width: 100%;
+	height:100%;
+} 
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height:200%;
+    overflow: scroll;
+	/*font-family: Proxima Nova, Helvetica, sans-serif;*/
+}
+
+h1 {
+	font-family: 'Oxygen', sans-serif !important;
+	font-weight: bold !important;
+}
+
+h2 {
+	font-family: 'Nunito Sans', sans-serif !important;
+	font-weight: bold !important;
+}
+
+h3 {
+	font-family: 'Nunito Sans', sans-serif !important;
+	font-weight: bold !important;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/** CSS FOR INDEX HTML */
+
+header {
+	width: 100%;
+	position: relative;
+	height: 125px;
+	z-index: 99999;
+	position: fixed;
+}
+
+.mynavbar {
+	height: 100%;
+	width: 100%;
+	padding:0;
+    background-color: blue;
+}
+
+.mynavbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.mynavbar li {
+	position: sticky;
+	float: left;
+}
+
+.mynavbar li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mynavbar li a:hover {
+	 background-color: #ffcc00;
+}
+
+
+.carousel {
+	margin-top: 125px;
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	float:left;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* CSS FOR ABOUT HTML */
+
+.title {
+	box-sizing: content-box;
+	position: relative;
+	padding-left: 5%;
+	width: 100%;
+	padding-top: 13%;
+}
+
+.title p {
+	box-sizing: content-box;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 28px;
+	color: #ffcc00;
+
+}
+
+.schpeel {
+	color: #919394;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: 15%;
+	padding-left: 42%;
+	text-align: left; 
+	font-size: 16px;
+}
+
+.projectfeatures p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 42%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+.projectfeatures ul {
+	color: #919394;
+	padding-left: 43.5%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+.awardsfeatures {
+	color: #ffcc00;
+	padding-top: 0%;
+	padding-left: 42%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+.awardsfeatures ul {
+	color: #919394;
+	padding-left: 2%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+
+.mybutton {
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 2%;
+	border:0;
+	background-color: #919394;
+	color: white;
+	position:relative;
+	/*font-family: Proxima Nova ,Helvetica, sans-serif; */
+	font-size: 16px; 
+}
+
+.resumebutton:hover {
+	background-color: #FFCC00;
+}
+
+/**CSS FOR WORK HTML */
+
+.hover-container {
+	margin-top: 20%;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  filter: opacity(0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+.hover-container:hover .overlay {
+  transform: scale(1)
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#dfa {
+	margin-left: 7%;
+	margin-right: 2.5%;
+	margin-bottom: 2.5%;
+	position: relative;
+	width: 40%;
+	height: 40%;
+}
+
+#vr {
+	margin-left: 2.5%;
+	margin-right: 5%;
+	margin-bottom: 2.5%;
+	position: relative;
+	width: 40%;
+	height: 40%;
+}
+
+#cogsci {
+	margin-left: 7%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+	position: relative;
+	width: 40%;
+	height: 40%;
+}
+
+#daily {
+	margin-left: 2.5%;
+	margin-right: 5%;
+	margin-top: 2.5%;
+	position: relative;
+	width: 40%;
+	height: 40%;
+}
+
+/** CSS FOR NEWDFA HTML */
+
+#dfatitle {
+	box-sizing: content-box;
+	padding-left: 0%;
+	text-align: center; 
+	font-size: 28px;
+	color: #ffcc00;
+
+}
+
+#dfatitle img {
+	padding-top: 2%;
+	height: 50%;
+	width: 50%;
+}
+
+#dfatitle p {
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	color: gray;
+}
+
+
+.problemspace {
+	display: flex;
+}
+
+
+#problem {
+	flex: 50%;
+}
+#problem p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 5%;
+	margin-left: 7%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#problem ul {
+	color: #919394;
+	padding-left: 5%;
+	margin-left: 7%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#hcw {
+	flex: 50%;
+}
+#hcw p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 5%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#hcw ul {
+	color: #919394;
+	padding-left: 5%;
+	margin-right: 7%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#inspiration {
+	box-sizing: content-box;
+	padding-left: 0%;
+	text-align: center; 
+	font-size: 28px;
+	color: #ffcc00;
+
+}
+
+#inspiration h2 {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 5%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#inspiration img {
+	margin-top: 3%;
+	margin-bottom: 5%;
+	height: 50%;
+	width: 50%;
+}
+
+#inspiration p {
+	padding-top: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	color: gray;
+}
+
+
+#prototype h2 {
+	color: #ffcc00;
+	padding-top: 10%;
+	padding-left: 5%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#prototype h3 {
+	color: #919394;
+	padding-top: 0%;
+	padding-left: 5%;
+	text-align: left; 
+	font-size: 25px;
+}
+
+#prototype p {
+	padding-top: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	color: gray;
+}
+
+.photocol {
+	flex: 25%;
+	padding: 5px;
+}
+
+.photorow {
+	display: flex;
+	margin-left: 8%;
+}
+
+#explanation p {
+	padding-top: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	color: gray;
+}
+
+#usertesting{
+	padding-left: 4%;
+}
+#usertesting h2 {
+	color: #ffcc00;
+	padding:0;
+	text-align: left;
+	font-size: 28px;
+}
+
+#usertesting p {
+	padding:0;
+	font-size: 18px;
+	color: gray;
+}
+
+
+.dfarow {
+	display: flex;
+	height: auto;
+}
+.dfacol {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	height: 100%;
+	padding: 0 10px;
+}
+
+
+
+/** VR HTML **/
+
+#vrtitle {
+	box-sizing: content-box;
+	padding-left: 0%;
+	text-align: center; 
+	font-size: 28px;
+	color: #ffcc00;
+
+}
+
+#vrtitle p {
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	color: gray;
+}
+
+#vrtitle img {
+	width: 1000px;
+	height:550px;
+}
+
+.vrcol {
+	position: relative;
+	width: auto;
+	display: inline-block;
+	height: 100%;
+	padding: 0 10px;
+}
+
+.vrrow {
+	display: flex;
+	height: 300px;
+}
+
+
+.vrsketch {
+	margin-top: 0;
+}
+
+#vrexplanation p {
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	color: gray;
+}
+
+.problemspace {
+	display: flex;
+}
+
+#problem {
+	flex: 50%;
+}
+#problem p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 5%;
+	margin-left: 7%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#problem ul {
+	color: #919394;
+	padding-left: 5%;
+	margin-left: 7%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#ask {
+	flex: 50%;
+}
+#ask p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 5%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#ask ul {
+	color: #919394;
+	padding-left: 5%;
+	margin-right: 7%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#usertesting h3 {
+	color: #919394;
+	padding-top: 0%;
+	padding-left: 5%;
+	text-align: left; 
+	font-size: 25px;
+}
+
+.vrround {
+	padding-left: 4%;
+}
+#vrprototype h2 {
+	color: #ffcc00;
+	padding-left: 0%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#vrprototype h3 {
+	color: #919394;
+	padding-left: 0%;
+	text-align: left; 
+	font-size: 25px;
+}
+
+#vrprototype p {
+	padding-left: 0%;
+	font-size: 18px;
+	color: gray;
+}
+
+
+/* modal images */
+/* Style the Image Used to Trigger the Modal */
+.modalmatt {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modalmatt:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100000 !important; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto !important; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+

@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	height:100%;
-    overflow: hidden;
+    overflow: scroll;
 	font-family: Proxima Nova, Helvetica, sans-serif;
 }
 
@@ -38,7 +38,7 @@ header {
 	left:0; /* x coordinate */ 
 	width:100%; /* stretches to the ends of the page */
 	height:15%;
-	background-color: rgba(0,51,153,0.9);
+	background-color: #FFFFFF;
 	color: #FFFFFF;
 	font-family: Proxima Nova ,Helvetica, sans-serif; 
 	font-size: 40px; 
@@ -56,8 +56,9 @@ header {
 }
 
 #navbar {
+	background-color: #dddddd;
     position: absolute;
-    overflow: hidden;
+    overflow: scroll;
     bottom: 0;
     height: 30%;
     min-height: 30px;
@@ -131,24 +132,23 @@ section {
 }
 
 /** INTRODUCTION SECTION */ 
-.top-box {
+.photography-section {
 	position: relative;
 	margin-top: 11%;
 	width: 100%;
-	height: 650px;
 	float:left;
 	text-align: center;
 	overflow: hidden;
 	border-bottom: 3px solid #ffcc00;
 }
 
-.top-box a {
+.photography-section a {
 	margin: 0 auto;
 	color: #ffcc00;
 
 }
 
-.top-box p {
+.photography-section p {
 	position: absolute;
 	width: 100%;
 	top: 50px;
@@ -158,7 +158,7 @@ section {
 
 }
 
-.top-box img {
+.photography-section img {
 	/*min-height:100%; 
 	min-width:100%;*/
 }
@@ -169,13 +169,14 @@ section {
 }
 
 /** ABOUT ME SECTION */ 
+
 .about-me {
 	position: relative;
 	width: 100%;
 	height: 750px;
 	float:left;
 	text-align: center;
-	overflow: hidden;
+	overflow: scroll;
 	border-bottom: 3px solid #ffcc00;
 	margin: 0 auto;
 	color: #ffcc00;
@@ -242,31 +243,154 @@ section {
 }
 
 .about-me img {
+	box-sizing: content-box;
+	margin-left: 3%;
+	margin-right: 5%;
+	margin-bottom: 10%;
 	height: auto;
 	width: 50%;
 	
 }
 
 .about-me p {
-	position: relative;
-	/*width: 100%;*/
+	/**position: relative;
+	/*width: 100%;
 	text-align: center;
 	font-size: 16px;
 	margin-left: 15px;
 	margin-right:15px;
     margin-top: .5%;
 	color: #919394;
+	*/
 
 }
 
 #about-me-title {
+	box-sizing: content-box;
 	position: relative;
 	width: 100%;
-	text-align: center;
-	font-size: 50px;
-	color: #ffcc00;
-    margin-top: 1%;
+	padding-top: 13%;
 
+	
+}
+
+
+#about-me-title p {
+	box-sizing: content-box;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 28px;
+	color: #ffcc00;
+}
+
+
+#hello p {
+	color: #919394;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: 15%;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#current-projects p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#current-projects ul {
+	color: #919394;
+	padding-left: 42.5%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+.hover-container {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+
+.image {
+ 	display: block;
+	width: 100%;
+ 	height: auto;
+}
+
+
+.design-main {
+	overflow: hidden;
+	border-bottom: 3px solid #ffcc00;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(57,58,58, 0.9);
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-transform:scale(0);
+	transition: .3s ease;
+}
+
+.hover-container:hover .overlay {
+	transform: scale(1)
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#dfa {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin-top: 18%;
+	margin-right: 1.5%;
+}
+
+#vr {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	float:right;
+	margin-top: 18%;
+	margin-left: 1.5%;
+}
+
+
+#cogsci {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin-top: 3%;
+	
+
+}
+
+#daily {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	float:right;
+	margin-top: 3%;
+	margin-left: 1.5%;
 }
 
 .description-section ul {
@@ -289,14 +413,12 @@ section {
 .mybutton {
 	width: 200px;
 	height: 50px;
-	margin: 0;
-	padding: 0;
-	border: none;
+	float: left;
+	margin-top: 2%;
+	border:0;
 	background-color: #919394;
 	color: white;
-	position:absolute;
-	top:80%;
-	left:40%;
+	position:relative;
 	font-family: Proxima Nova ,Helvetica, sans-serif; 
 	font-size: 16px; 
 
@@ -336,7 +458,7 @@ section {
 
 }
 
-.colorbutton:hover {
+.resumebutton:hover {
 	background-color: #FFCC00;
 }
 /** PROJECTS SECTION **/ 

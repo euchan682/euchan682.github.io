@@ -4,277 +4,58 @@
 
 		<title>Eunice Chan</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="newstyle.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans|Oxygen" rel="stylesheet">
+		<!-- add matthew icon :)) --> 
 	</head>
 
+
 	<body>
+
 		<header>
-            <div id="navbar">
-                <div id="left">
-                    <div class="button" style="left:15px;"    onclick="document.getElementById('eunice-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
-                        home
-                    </div>
-                    <div class="button" style="left:115px;"  onclick="document.getElementById('about-me-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
-                        about
-                    </div>
-                </div>
-                <div id="right">
-                    <div class="button" style="right:135px;" onclick="document.getElementById('dailyui-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
-                        projects
-                    </div>
-                    <div class="button" style="right:15px;" onclick="document.getElementById('contact-id').scrollIntoView({behavior:'smooth',block:'start', inline:'nearest'})">
-                        contact
-                    </div>
-                </div>
-            </div>
-            
-            
+			<!-- insert navbar here -->
+			<div class="mynavbar">
+				<ul>
+					<li> <a href="something here">Home</a> </li> <!--insert logo--> 
+					<li> <a href="something here">About</a> </li>
+					<li> <a href="something here">Work</a> </li>
+					<li> <a href="something here">Photography</a> </li>
+					<li> <a href="something here">Contact</a> </li>
+				</ul>
+			</div>
 		</header>
 
-		<div class="main-content">
-			
-			<div class="top-box" id="top-box-box">
-				<a href="">
-				<!-- <img src="education_icon.svg"/> -->
-				<p>Hi! I'm Eunice and welcome to my website.</p>
-				</a>
-
-
-				<div class="invisible-element" id="eunice-id">
+		<!-- loading pics onto carousel, media querying for carousel -> 
+		<!- carousel for photography --> 
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="acoustic_worship.jpg" alt="First slide">
 				</div>
-		
-			</div>
-			<div class="about-me" id="about-me-box">
-                
-                
-
-				<div id= "about-me-title">
-					about me
+				<div class="carousel-item">
+					<img class="d-block w-100" src="acoustic_worship.jpg" alt="Second slide">
 				</div>
-
-				<p>Hello! I’m Eunice and I’m a current sophomore at UCSD. I have a big passion for graphic art but I also have a strong budding interest in how modern technology, our physical bodies, and the wonder of creativity magically work together. My website is a steadily growing collection of some work that I truly enjoyed creating whether it was using photography, design, or computer science. I'm a fanatic dog-lover, dessert foodie, and I'm proud to call the Bay Area my home. </p>
-                
-                
-
-				<div class="description-section">
-					<img src="education_icon.svg"/> 
-
-					<div id="description-section-title">
-						Education
-					</div>
-
-					<ul>
-						<li> University of California, San Diego </li>
-						<li> Cognitive Science (HCI) Major & Computer Science Minor </li>
-						<li> Expected Graduation: June 2020 </li>
-					</ul>
-
-			
-				
-			</div>
-
-				<div class="description-section"> 
-					<img src="experience_icon.svg"/>
-
-					<div id="description-section-title">
-						Experience
-					</div>
-
-					<ul>
-						<li> Media, Arts, Communication Team Member</li>
-						<li> Warren College Orientation Leader </li>
-						<!--<li> Some job or Adwave </li>-->
-					</ul>
-				</div>
-				
-				<div class="description-section">
-					<img src="skills_icon.svg"/>
-
-					<div id="description-section-title">
-						Skills
-					</div>
-
-					<ul>
-						<li> Sketch 3, Adobe Lightroom, Adobe Illustrator</li>
-						<li> Java </li>
-						<li> HTML & CSS </li>
-					</ul>
-				</div>
-				
-
-
-				<button class="mybutton colorbutton" onclick="window.open('https://docs.google.com/document/d/1hMcGv1mxRahsE_X2H6XI6Q7Igcut__eUfr8nZ2ogKMU/edit?usp=sharing')">download resume</button>
-
-				<div class="invisible-element" id="about-me-id">
+				<div class="carousel-item">
+					<img class="d-block w-100" src="acoustic_worship.jpg" alt="Third slide">
 				</div>
 			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true">
+				</span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true">
+				</span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
 
-			<div class="projects-main" id= "projects-main-box" >
-				<div id="projects-title"> 
-					Projects I've Worked On
-				</div>
-				<div class ="projects-section">
-                    <div class="img">
-					   <img src="DailyUIChallengeImage.jpg" align="left">
-                    </div>
-                    
-                    <div class="desc">
-                        <h1>
-                            100 Days of UI
-                        </h1>
+		<!-- necessary javascript stuff --> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="navbar.js"></script>
 
-                        <p>The 100 Days of UI challenge is a design challenge where participants take on a User Interface design prompt for 100 days. I am currently in the progress of undertaking this challenge to further my visual design skills and to challenge myself at creating better design solutions.</p>
-                    </div>
-			 	   <!--<button class="uibutton colorbutton">learn more</button>-->
-
-				</div>
-				
-				<div class="invisible-element" id="dailyui-id">
-				</div>
-                
-                <div class="projects-section" style="border-top:#ffcc00 3px solid;">
-				
-                    <div class="img">
-                        <img src="CogSciWebContestImage.png">
-                    </div>
-
-                    <div class="desc">
-                        <h1>
-                            CogSci Web Contest Online Banners
-                        </h1>
-
-                        <p> The UCSD Department of Cognitive Science held a contest for the purpose of revamping the department website. Submissions needed to include varying elements of the six specializations the Cogntive Science Major had to offer: Language and Culture, Design and Interaction, Neuroscience, Machine Learning, Clinical Aspects, and Cognitive Behavioral Neuroscience.</p> 
-
-                        <p> For  this project, I wanted to create a minimalistic design that incorporated the necessary graphic and artistic elements that fulfilled the submission requirements. I looked at different department websites as references and guides. I intended for each specialization to have a banner of it's own so I wanted to use a design that was replicable and flexible. I had the honor of being one of two winners for this contest.</p>
-                        </div>
-
-
-                        <!--<button class="cogscibutton colorbutton" >learn more</button> -->
-
-                    </div>
-			</div>
-
-			
-
-			<div class="contact-main-section" id ="contact-id" style="height:500px;">
-
-				<div id ="contact-main-title">
-						<p> Get in Contact</p>
-					</div>
-
-				<div class = "contact-section"> 
-
-					<img src="phone_icon.svg" >
-						<div id ="contact-section-title">
-							<p> Phone</p>
-						</div>
-
-					<p>510.566.6499</p>
-				</div>
-
-				<div class = "contact-section"> 
-
-					<img src="email_icon.svg" >
-						<div id ="contact-section-title">
-							<p> Email</p>
-						</div>
-					<p>euchan@ucsd.edu</p>	
-				</div>
-				
-				<div class="invisible-element" id="contact-id">
-				</div>
-				
-
-		
-			</div>
-
-
-			<!-- <div class="projects-main">
-				
-				 
-				<div class ="projects-section">
-					<img src="filler_photo.jpg" align="left">
-				</div>
-
-				<div id="projects-title"> 
-					<p>Photography</p>
-				</div>
-
-				<div id="projects-subheader">
-					<p>sub header</p>
-				</div>
-
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
-				
-		
-			</div>
-
-			<div class="projects-main">
-				
-				s
-				<div class ="projects-section">
-					<img src="filler_photo.jpg" align="left">
-				</div>
-
-
-				<div id="projects-title"> 
-					<p>Computer Science</p>
-				</div>
-
-				<div id="projects-subheader">
-					<p>sub header</p>
-				</div>
-
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
-				
-		
-			</div> --> 
-
-
-			<!-- <div class ="about-me"> 
-		
-				<div id="projects-title"> 
-					<p>How To Contact Me</p>
-				</div>
-
-				<div class="projects-section">
-					<div id="projects-subheader">
-						<p style="top: 35px;">Email me</p>
-					</div>
-
-					<img src="education_icon.svg"/> 
-					<p>euchan@ucsd.edu</p>
-				
-				</div>
-
-				<div class="projects-section"> 
-
-					<div id="projects-subheader">
-						<p style="top: 35px;">Call me</p>
-					</div>
-
-					<img src="experience_icon.svg"/>
-					<p>510.566.6499</p>
-
-				</div>
-				
-				<div class="projects-section">
-
-					<div id="projects-subheader">
-						<p style="top: 35px;">Call me</p>
-					</div>
-
-					<img src="skills_icon.svg"/>
-					<a href="https://www.facebook.com/eunice.chan.980">Facebook</a>
-						
-				</div>
-				
-			</div> -->
-	
-		 </div>
-
-		<footer>
-			
-		</footer>
-	 </body>
-</html> 
+	</body>
