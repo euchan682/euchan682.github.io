@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eunice Chan">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>Eunice Chan</title>
+    <!-- Main background style for every page -->
+    <link href="../assets/css/home.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/vr.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Useful JS Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <!-- TODO: header and logic -->
+       <ul class="nav">
+        <li><a id="resume" href="../assets/img/2019.pdf" download>resume</a></li>
+        <li><a id="about" href="../about/index.html">about</a></li>
+        <li><a id="home" href="../index.html">home</a></li>
+        <div class="logo">
+          <li><a href="../index.html">eunice chan</a></li> 
+        </div>  
+      </ul>
+    </header>
+    <div id="main-scroll" class="main">
+
+    <!--<img class="single" src="/assets/img/vr_banner.png">-->
+          <!-- ADDITIONAL NOTES -->
+          <!-- add collaborators, put in bullet points for case study description for cleaner look --> 
+          <div class="fit">
+            <h1> VR UNIVERSE </h1>
+            <div class="stats">
+
+              <div class="item" id="oops">
+                <h2>SKILLS & TOOLS</h2>
+                <p>User Testing, Wireframing, Sketch, Unity</p>
+              </div>
+
+              <div class="item">
+                <h2>ROLE</h2>
+                <p>User Researcher, Graphic Designer</p>
+              </div>
+
+              <div class="item">
+                <h2>PROJECT DURATION</h2>
+                <p>2017-2018 (12 mos)</p>
+              </div>          
+            </div>
+          </div>
+
+          <div class="overview">
+            <h2>CONCEPTUALIZATION——</h2> 
+
+              <p>Virtual Reality Club at UCSD, currently known as Triton XR, was creating a VR application that showcases all of the organization's past completed projects. Prior to the fall of 2017, a student team had already began the process of creating a space-themed environment, where each of the planets in space would represent a project on the HTC Vive. The student team included 9 other individuals: Kristin Agcaoili, Prasanth Abraham, Xinyi He, Dana Kimball, Xin Li, Henry Narabe, Subhankar Panda, Rui Ren, and Virginia Xu. While creating this application, the team realized they had not properly addressed the anticipated growth of this project since it would eventually accumulate many student creations. They also discovered that the current tutorial the environment offers failed to be of any use towards first-time VR users. </p>
+              <br>
+              <p>When I joined the project, I interviewed team and first-time VR users and ultimately funneled these issues into this <strong> main need: </strong> For first-time VR users, it can be difficult to navigate a virtual reality application because it can be very overwhelming in a multitude of ways. From motion sickness to the unfamiliarity with VR consoles, there's a lot that a first-timer has to face.</p>
+              <br>
+
+              <p class="final-product"> <a href="https://www.youtube.com/watch?v=pBpUcnVM8BU">view the final prototype here</a> </p>
+          </div>
+
+      <button class="tablink" onclick="openPage('Tutorial', this, '#173753')" >TUTORIAL</button>
+      <button class="tablink" onclick="openPage('Search', this, '#173753')"id="defaultOpen" >SEARCH FILTER</button>
+    <!---------------------------------------------------------START OF TUTORIAL TAB --------------------------------------------------> 
+
+      <div id="Tutorial" class="tabcontent">
+        
+        <h2>DESIGNING THE TUTORIAL</h2>
+
+          <h3>NEEDFINDING</h3>
+
+            <div class="the-need">
+              <img class="static" src="/assets/img/statictutorial.png">
+            </div>
+
+            <p>Prior to joining the project, the team had a static window in the virtual environment depicting a simple diagram of the HTC Vive's controls. However, after multiple demos at the organization's showcase, the team members realized that very few actually noticed the static window since it was confined to one area in the environment and there was no way of informing the user that it was there in the first place. Because of this discovery, the team wanted to implement a tutorial system that was user-friendly and engaging enough so that a user can use VR Universe with little aid.</p>
+
+          <h3>FIRST ITERATION</h3>
+
+            <div class="brainstorm">
+              <img class="static" id="tilt" src="/assets/img/tiltbrush.png">
+            </div>
+
+            <p>Initially, I thought that simply attaching labels to the virtual model of the controller itself in the enviironment would serve to solve this problem. I studied other successful VR applications, such as TiltBrush, because I thought that TiltBrush's massive multi-functionality could inform me to make better design decisions. I made simple text labels in Unity that indicated the "pointer", our "year selection" trackpad, and the "quit" button. However, that immediately cause a lot of problems. Firstly, there wasn't any explanation informing the user how to use the "year selection" trackpad (whether it was to press left/right or up/down). Secondly, the "quit" button was adjacent to the Steam button on the HTC Vive and had the same feel and shape, so users often pressed the wrong one.</p>
+
+          <h3>BRAINSTORMING SECOND ITERATION</h3>
+
+            <p>I immediately went back to the drawing board. I know that virtual reality is hard to pick up on for those who have never experienced before and 2D visuals such as diagrams or labels don't offer enough information. Hence, I proceeded to think of step-by-step tutorials that compels the user to familiarize with our application before actually using it.</p>
+
+            <div class="brainstorm">
+              <img class="sketch" src="/assets/img/sketch1.JPG">
+              <img class="sketch" src="/assets/img/sketch2.JPG ">
+            </div>
+
+          <h3>PROTOTYPING SECOND ITERATION + USER TESTING ROUND 1</h3>
+
+            <p>I immediately went back to the drawing board. I know that virtual reality is hard to pick up on for those who have never experienced before and 2D visuals such as diagrams or labels don't offer enough information. Hence, I proceeded to think of step-by-step tutorials that compels the user to familiarize with our application before actually using it. In Unity, I created text labels that would appear in sequential order and disappear after the instruction on the label was executed.</p>
+
+            <div class="first-mistake">
+              <img class="implement" src="/assets/img/implement1.png">
+              <img class="implement" src="/assets/img/implement2.png">
+            </div>
+
+            <p>In the following quarter demo, we had students try out the newly implemented tutorial system. Unfortunately, in our student survey, only half used the tutorial system. I wasn't sure as to what the exact reason was for each given case, but while observing the demos, I noticed that very few actually followed the labeled instructions all the way through because they weren't looking at their controllers at all; they were more focused on the actual environment.</p>
+
+            <img class="single" src="/assets/img/usertest1.png">
+
+          <h3>PROTOTYPING THIRD ITERATION + USER TESTING ROUND 2</h3>
+
+            <div class="row">
+              <div class="column" id="sketch-exp">
+                <p>This brought me back to the original issue: <strong> how can I inform the user that a tutorial system exists for them to use? </strong> </p> 
+                <br>
+                <p>The way I addressed this issue was by having the tutorial toggle to the head when the the user enters the environment. By having it in the viewpoint of the user, the user will automatically see it regardless of where they are standing within the environment because it's no longer stuck at a fixed point. No matter where they turn, the user will definitely see the tutorial's welcome panel. </p> 
+                <br> 
+                <p> I also fleshed out the tutorial so that our instructions could gently ease first-time VR users into the VR Universe. In the introduction panel, we welcome the user and provide instructions on how to proceed in the tutorial. I was also considering if I should include a skip option to provde more flexibility and freedom in the case that the user was already familiar with how our project worked.</p>
+                <br>
+                <p>The tutorial would then walk through each of our features through multi-step panels: the filter, the year panel, and the lever. For each feature, there were brief instructions on how to use the Vive's console to actually utilize each feature. The user was taught how to select categories in the filter, switch between years, and maneuver the lever to control the speed of the spaceship within the VR universe. Each panel appeared for around 5-7 seconds then it would disappear and the next tutorial window would reappear at the specific location where the next set of instructions would take place.</p>
+                <br>
+                <p>We finally conclude the tutorial by eventually having the user explore a project of their choosing.</p>
+              </div>
+
+              <div class="column">
+                <img class="single" id="large-sketch" src="/assets/img/tutorialsketch1.JPG">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <img id="user-block" src="/assets/img/usertest2.png">
+              </div>
+              <div class="column">
+                <div id="user-exp">
+                  <p>During user testing, one user commented that they would prefer dismissing the tutorial windows themselves since the pacing of tutorial is automatic. One other user also noted that they didn't know where the lever was which is an understandable issue since the environment involves the user looking in all directions, something that first-timers might not be aware of.</p>
+                  <br>
+                  <p>When I refined the tutorial the final time, I took these things into consideration. I changed the tutorial so that the window would appear for as long as they wanted and that dismiss and skip options were included.
+               </div>
+
+
+              </div>
+            </div>
+
+          <h3>PROTOTYPING FINAL ITERATION</h3>
+            <!-- should make these into gifs & include images of htc vive graphics --> 
+            <div class="usertest-2">
+              <!-- display tutorial diagram -->
+              <div class="gif">
+                <iframe src="https://giphy.com/embed/1BeoGFelxGI1K0wPWI" width="320" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p>The tutorial graphic redesigned to highlight the specific parts of the HTC Vive console that correlate with our controls.</p>
+              </div>
+
+              <!-- dismiss tutorial floating to next locations-->
+              <div class="gif">
+                <iframe src="https://giphy.com/embed/elMwb8AEnOtkTqrB3d?video=0" width="320" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p>When the tutorial is dismissed or the task is completed, it floats to the next location where the next set of instructions occur.</p>
+              </div>
+
+              <!-- skip and next tutorial options --> 
+              <div class="gif">
+                <iframe src="https://giphy.com/embed/lL14RQ1OVc6scpFFYd?video=0" width="320" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p>The user also has the "skip" option, which exits the user from the tutorial, and the "next tutorial" option, to automatically proceed to the next step.</p>
+              </div>
+
+            </div>
+
+            <p> In our final iteration, the tutorial consists of the user having to go over a series of task that familiarizes the user with the multiple features that exist in VR Universe just like the previous iteration. However, besides the set of instructions on each tutorial panel, I also made sure to include "dismiss", "next tutorial", and "skip" options. This was intentionally designed so that rather having the tutorial run on its own while pausing every 5 seconds, each user can have the flexibility and the freedom to go through the tutorial at his or her own pace. <strong>With these changes, I wanted users to learn mentally but to be guided physically in order to take advantage of the physical capabilities in VR.</strong></p>
+
+        
+          <h3>TAKEAWAYS</h3>
+
+          <p>Going into this project last year, I was still pretty unfamiliar with the design process. I had never really made a paper prototype or a proper hi-fidelity one on Sketch. I wasn't aware of the proper protocol for user testing and I was a complete novice to using Unity. Virtual reality was and still is such a novelty to me and this project was one the most exciting opportunities I got to participate so far. Looking back on it now, I would have changed a lot of things such as removing numerical rating questions and taken more time with my user testing debriefs with proper follow-up questions. I would have liked to done more iterations but prototyping for virtual reality is a lot different that anything I ever experienced because there's a lot of unaccounted factors (such as physical depth and visual angles) in a virtual 3D environment that you wouldn't really notice when developing an application that is 2D. I realized I made (and still make) a lot of assumptions in design and that it is with patience in tackling the iterative design process do I slowly catch myself making these assumptions and grow to be a more open-minded designer.</p>
+
+          <img class="single" src="/assets/img/vr_team.jpg">
+
+          </div> 
+    <!---------------------------------------------------------END OF TUTORIAL TAB ----------------------------------------------------> 
+
+    <!---------------------------------------------------------START OF FILTER TAB -------------------------------------------------->
+
+      <div id="Search" class="tabcontent"> 
+
+        <h2>DESIGNING THE SEARCH FILTER</h2>
+
+         <h3>NEEDFINDING</h3>
+
+            <p>The search filter system was suggested by one team member because VR Universe would eventually store a very large database of projects which would make it increasingly difficult to navigate. Having the search filter would not only make it for VR Club members find specific projects, it could also seem less overwhelming to students who visit the club's quarter showcases and have never engaged with virtual reality before.</p>
+
+          <h3>FIRST ITERATION</h3>
+
+            <h4>INSPIRATION</h4>
+
+              <p>Initially, another project team member and I wanted our search filter system to be like a spaceship control panel since we were traveling in the "VR Universe." We were also simultaneously modifiying the look of the main environment to look like the interior of a spaceship so we wanted to continue to have that aesthetic throughout all our features.</p>
+
+            <h4>THE DESIGN</h4> 
+
+              <p>Each VR project could be sorted by its category and the year it was made so we planned 3 side-by-side panels. The left most panel from the user's perspective would be a panel of all the categories for the different types of VR projects in the universe. The right most panel would display a scroll bar of the years chronologically from top to bottom. The middle panel would display the results of the search filters depending on the user's selection of the year and the categories he or she chose.</p>
+              <br>
+              <p>In our first iteration, we thought that the search results panel could display the corresponding planet paired with the project title and its description along with its associated category tags. We would attach a launch button so that the user can directly navigate to the planet without physically searching for it. For the years panel, we simply listed the years in chronological order with an arrow pointing at the year that was currently selected. For the category panel, we focused on just having a text button for each category that the user could physically select, similar to the filtering functionality on e-commerce websites. </p>
+
+            <div class="brainstorm">
+              <img class="sketch" src="/assets/img/categorysketch1.JPG">
+              <img class="sketch" src="/assets/img/categorysketch2.JPG ">
+            </div>
+
+        <h3>SECOND ITERATION</h3>
+
+          <h4>REDESIGNING AND ADJUSTING</h4> 
+
+            <p>After some discussion with the rest of team, we decided to make some subtle changes in terms of the user interface in order to make it more intuitive for users to pick up on how to use the search filter system easily.</p> 
+            <br>
+            <p>The idea behind our first iteration for the results panel was thought to be better suited as a pop-up modal for all the planets when a user freely explores the universe without via the search filter system. Another caveat we realize is that our filter can still in result in multiple projects because many VR projects were educational games so our first iteration wouldn't be too helpful since it could only display one project. I suggested another idea where the search filter would populate the results panel with all the planets that matched its search and using a similar scrolling functionality where you can see all the planets on a dial but the one you're currently viewing is magnified in size.</p>
+            <br>
+            <img class="single" id="year" src="/assets/img/Year Panel.png">
+            <p>For the years panel, we improved its usability by making the current year that was selected highlight in color so it would stand out visually apart from the other years to the user.</p>
+            <br>
+            <img class="single" id="categories"src="/assets/img/Category Panel.png">
+            <p>For the category panel, we decided to make icons for each of the individual categories to improve readability and be a better visual scanning aid. We listed out each of the possible categories from the current roster of VR projects and built the categories around those.</p>
+
+            <img class="single" id="search" src="/assets/img/Search Results Panel.png">
+            <p> For our results panel, we decided to go with a user interface that would populate the results panel with the results matched from the search filtering. If there were many matches, the user could use the scrollbar to scroll up and down. 
+
+        <h3>FINAL ITERATION</h3>
+
+          <h4>POLISHING</h4> 
+
+            <p>Due to the pressure of our deadline to have it ready by spring of 2018, we couldn't execute the scrolling concept for our results panel since we had limited time and it was technically challenging. Hence, we decided to stick with a stacked list of responsive modals where the user can scroll the bar by dragging and clicking to view all the results that came up. In each modal, there would be a thumbnail of the project's physical environment and its profile (the project title, name of the creators, and the category tags). When the user clicks on any of results, then the pop-up modal from the first iteration would expand to include the project description along with the profile.</p>
+            <br>
+            <iframe class="finalgif" src="https://giphy.com/embed/d3dJfAyUvgdfOK6aCD?video=0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p>For our years panel, we decided to remove the single arrow pointing to the current year selection and replace it with interactive up and down arrows to allow the user to scroll through the list.</p>
+            <br>
+            <iframe class="finalgif" src="https://giphy.com/embed/BctJzR45jegBeLNWmJ?video=0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p>For our categories panel, the project lead and I spent time generating a list of categories based on our current pool of projects. I designed icons for each category to make them easier to visually identify.</p>
+            <br>
+            <iframe class="finalgif" src="https://giphy.com/embed/jnUNalJkKWv1bth5UA?video=0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <p>For our search results panel, we populated the panel with results that matched according to the search in chronological order. 
+     
+        <h3>TAKEAWAYS</h3>
+
+        <p>Going into this project last year, I was still pretty unfamiliar with the design process. I had never really made a paper prototype or a proper hi-fidelity one on Sketch. I wasn't aware of the proper protocol for user testing and I was complete novice to using Unity. Virtual reality was and still is such a novelty to me and this project was one the most exciting opportunities I got to participate so far. Looking back on it now, I would have changed a lot of things such as removing numerical rating questions and taken more time with my user testing debriefs with proper follow-up questions. I would have liked to done more iterations but prototyping for virtual reality is a lot different that anything I ever experienced because there's a lot of unaccounted factors (such as physical depth and visual angles) in a virtual 3D environment that you wouldn't really notice when developing an application that is 2D. I realized I made (and still make) a lot of assumptions in design and that it is with patience in tackling the iterative design process do I slowly catch myself making these assumptions and grow to be a more open-minded designer.</p>
+
+        <img class="single" src="/assets/img/vr_team.jpg">
+
+
+      </div>
+  <!---------------------------------------------------------END OF TUTORIAL TAB ----------------------------------------------------> 
+
+    </div>
+
+    <script>
+      function openPage(pageName,elmnt,color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(pageName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+
+          }
+    // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+  </body>
+</html>

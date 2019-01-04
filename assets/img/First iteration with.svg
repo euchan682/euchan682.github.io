@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="59px" viewBox="0 0 101 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>First iteration with</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="OpenSans-Regular, Open Sans" font-size="12" font-weight="normal">
+        <g id="Home_iteration" transform="translate(-726.000000, -166.000000)" fill="#5A709E">
+            <text id="First-iteration-with">
+                <tspan x="726" y="176">First iteration with </tspan>
+                <tspan x="726" y="193">basic HTML and </tspan>
+                <tspan x="726" y="210">minimal CSS </tspan>
+                <tspan x="726" y="227" font-family="OpenSans-SemiBold, Open Sans" font-weight="500">——</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

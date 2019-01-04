@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eunice Chan">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+
+    <title>Eunice Chan</title>
+    <!-- Main background style for every page -->
+    <link href="../assets/css/home.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/cogs120.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+     <!-- Useful JS Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <!-- TODO: header and logic -->
+       <ul class="nav">
+        <li><a id="resume" href="../assets/img/2019.pdf" download>resume</a></li>
+        <li><a id="about" href="../about/index.html">about</a></li>
+        <li><a id="home" href="../index.html">home</a></li>
+        <div class="logo">
+          <li><a href="../index.html">eunice chan</a></li> 
+        </div>  
+      </ul>
+    </header>
+   <div id="main-scroll" class="main">
+
+    <!--<img class="single" src="/assets/img/vr_banner.png">
+
+    <img class="single" src="/assets/img/vr_team.jpg">-->
+          <!-- Project Description Blurb --> 
+          <!--<p>VR Universe is an immersive virtual reality environment that showcases all past and future projects from UCSD's very own virtual reality student organization, Triton XR.</p>--> <!-- LEAVE FOR PROJECT DESCRIPTION -->
+          <div class="fit">
+            <h1> FOCUS </h1>
+            <div class="stats">
+
+              <div class="item" id="oops">
+                <h2>SKILLS & TOOLS</h2>
+                <p>User Testing, Wireframing, Prototyping, Sketch, HTML/CSS</p>
+              </div>
+
+              <div class="item">
+                <h2>ROLE</h2>
+                <p>User Testing Specialist, UX Designer</p>
+              </div>
+
+              <div class="item">
+                <h2>PROJECT DURATION</h2>
+                <p>Sept - Dec 2018 (4 mos)</p>
+              </div>          
+            </div>
+          </div>
+
+          <div class="overview">
+            <h2>CONCEPTUALIZATION——</h2> 
+
+              <p><strong>Focus</strong> is a desktop web application meant to promote distraction-free studying using a points-based rewards system. Students set a timer for the duration of their study session. When they are distracted and navigate away from the timer page, their study session will automatically terminate their session and the student won't earn their points. However, if a student completes a session successfully, they can accumulate points and exchange them for rewards to personalize the look of the application.</p>
+              <br>
+              <p>This project came about under UCSD's COGS 120 course, Interaction Design. With Professor Phillip Guo's guidance, students were able to engage with the individual phases of the iterative design process by creating a web application during the span of a quarter. I worked with two other students on this project: Edward Chen and Nathaniel Qin.</p>
+              <br>
+
+              <p class="final-product"> <a href="https://threestripes.herokuapp.com/">view the final product here</a> </p>
+          </div>
+
+          <div class="content">
+            <h2>DESIGNING FOCUS</h2>
+            <h3>NEEDFINDING</h3>
+
+            <p>In the COGS 120 Interaction Design course, there were three main themes that students can choose to focus on. My team chose to focus on "enhancing health." We selected this theme because we noticed that a lot of students rapidly fell ill leading up to midterms. During our needfinding process, we chose to observe people as they tried to recover from being ill. We particularly focused on the student population since that seemed to be the most applicable and relatable demographic and watched as students studied or completed homework.</p>
+            <br>
+
+            <p>We observed and interview three different people as they tried to study or do their homework and came up with a list of insights. For example, </p>
+            <ul>
+              <li>Unwell student needs motivation to continue productivity while fatigued.</li>
+              <li>Unwell student needs an easy way to know the severity and strain of their illness so they can plan their life according to their recovery pattern.</li>
+              <li>Unwell student needs a way to remember what drugs best worked for them, including side effects.</li>
+            </ul>
+
+            <h3>STORYBOARDING</h3>
+            <p>Throughout all of the interviews during the needfinding process, we witnessed many challenges that students have to face when they are sick during a long season of midterms. From ingesting all kinds of medicine to constantly having to sneeze, drink water, or clear one's throat while working, we noticed how easily a student's productivity could be disturbed while being ill. Using these insights, we funneled our focus on improving productivity and came up with our problem statement:</p>
+            <div class ="pov">
+              <p><strong>Students don't have time to adopt healthy habits and when they get sick, their productivity is stunted.</strong></p>
+            </div>
+
+            <p>We created a storyboard about a student named Teegan to illustrate our user need in a relevant and applicable context.</p>
+
+            <img class="single" src="/assets/img/storyboard.png">
+
+            <p>We wanted to convey that Teegan is a sick student that is behind on schoolwork. It was important for us to highlight that Teegan was successful in being productive through the use of our study timer application. Teegan indicates that he is happy because not only he did manage to get his work done, he earned points for a completed study session that he can use to exchange for rewards in the app's shop.</p>
+
+            <h3>PAPER PROTOTYPING</h3>
+            <p>We also created an interactive paper prototype to understand the strengths and weaknesses of our current user interface. We worked with other students in class to conduct heuristic evaluations on our paper prototype using Jakob Nielsen usability heuristics. </p>
+            <br>
+            <iframe class="finalgif" width="560" height="315" src="https://www.youtube.com/embed/BD_c43mtddQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <p>After conducting our heuristic evaluation, we realized we had to make several changes under different heuristics for our timer study application. Here are some of the noted changes:</p>
+            <div class="heuristic">
+              <ul><p><strong>Show system status</strong></p>
+                <li>Having an email confirmation dialog box pop-up to inform user that the app is aware of the user's purchase</li>
+                <li>Displaying an estimate of points when user is setting the duration for their next study session so that they know how many points they will potentially earn</li>
+              </ul>
+
+              <ul><p><strong>Control & Freedom</strong></p>
+                <li>Creating a history of past point earnings and study sessions to users can use it as a reference for future study sessions</li>
+              </ul>
+
+              <ul><p><strong>Error Prevention</strong></p>
+                <li>Including a dialog box that confirms with user of their purchase to ensure user doesn't accidentally purchase a reward they didn't intend to buy</li>
+              </ul>
+
+              <ul><p><strong>Recognize, diagnose, & recover from errors</strong></p>
+                <li>Including a dialog box indicating unfinished timer to inform user that their study session was interrupted and they won't earn the points for that productivity session</li>
+                <li>Adding a "forget password" option so that users can recover their account if they forget their password</li>
+              </ul>
+            </div>
+
+            <p>During the course of the heuristic evaluation, my team came to the conclusion that it was best to stick with a desktop user interface instead of a mobile one. The main reason we chose to stick with the desktop version of our web application is because one of the main core functionalities in our application is being able to track when a user is distracted: by clicking out of the current window and going to another window or tab. Since most people work from a desktop or a laptop,  and our application requires the user to stay focused on Focus, we thought it was best to not opt for mobile.</p>
+
+            <h3>WIREFRAMING</h3>
+
+            <p>While keeping note of the insights gained from our heuristic evaluation, I proceeded to wireframe our prototypes. Using Sketch, I made two simple, black and white wirefames our home page and timer page to convey the general user interface and display of our core functionality.</p>
+
+            <img class="wireframe" src="/assets/img/Home.svg">
+            
+            <img class="wireframe" src="/assets/img/Timer.svg">
+
+            <h3>HI-FIDELITY PROTOTYPING</h3>
+
+            <p>Initially, I believed our wireframe would be of some resemblance to our eventual final product but as we approached the user testing phase, we quickly went through many more iterations of our user interface which dynamically changed the appearance and user experience of our application. We repeatedly polished and refined and incorporated new features that we didn't originally anticipate.</p>
+            <br>
+
+            <img class="wireframe" src="/assets/img/Home_iteration.svg">
+
+            <p>As displayed in the iterations above, we rearranged the elements on our navigation bar as well as incorporated rotating inspirational quotes that will fade in and out at the bottom of the home page. We also added a settings and profile page for help and documentation that is accessed through the dropdown menu in the navigational bar. With each iteration, we were able to slowly realize our wireframe into the finished product we had in mind.</p>
+
+            <h3>USER TESTING</h3>
+
+            <p>My favorite part of the design process is user testing because it's always refreshing to listen to other people's feedback and see how their mental model differed from mine. For our COGS 120 course, we had to conduct several user tests on our target demographic and utilize their suggestions and comments to redesign a core feature of our application for qualitative A/B testing. My teammates and I used this opportunity to create a formal user testing protocol which composed of:</p>
+            <ul>
+              <li>Verbal script for each role in the user testing session (Task Guidance, Observer, Interviewer)</li>
+              <li>Screen and audio recording materials</li>
+              <li>Debrief interview</li>
+            </ul>
+
+            <p>During the actual user testing process we had each user</p>
+            <ol>
+              <li>Begin from the login page and proceed to create account with our application</li>
+              <li>Create a study session for 1 minute and purchase a reward from the shop that would change the appearance of the app</li>
+              <li>Change the appearance of the app back to its default settings</li>
+            </ol> 
+
+            <p>In our observations, we noticed that users didn't notice that the arrows used to adjust the timer were present and could help set the time. The main reason is because next to the timer we had presets of +/- 15 and 30 minutes and due to its bright green and red colors, people's attention were immediately directed to that. For example, one user during our user testing session selected the +30 min preset and then proceeded to press the "down" arrow on the minutes 29 times to set the timer for a 1 minute study session. In preparation for our qualitative A/B testing we took note of this breakdown and made it the focus of our redesign.</p>
+
+            <img class="single" src="/assets/img/timer1.png">
+
+            <p>Above is the timer user interface that users saw during the user testing session. The presets for adding 15 or 30 mins were in bright green while subtracting 15 or 30 mins were in red. This was <strong>version "A"</strong> for the A/B testing.</p>
+
+            <iframe class="finalgif" src="https://giphy.com/embed/55tEKxYjWAXR9M9Qcz" width="700" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+
+            <p>Above is the timer user interface that we redesigned due to the breakdowns that we noticed during initial user testing trials. We animated the arrows to make them bounce to make them more noticable and eye-catching and matched the preset buttons to the overall color scheme. This was our <strong>version "B."</strong></p>
+            <br>
+            <p>However, during our qualitative A/B testing, most people couldn't distinguish an immediate difference between our version "A" and "B". Several people still hovered over the presets first when trying to set the timer but after pointing out the newly added animations, people commented that they did find it somewhat useful because it definitely drew their attention. Ultimately, we kept both of our changes since the animated arrows proved to be less plain than before and the muted colors helped the presets to be less eye-catching.</p>
+
+            <h3>FINAL DESIGN</h3>
+
+            <p>Here is the polished final design of Focus, our desktop web application.</p>
+
+            <img class="wireframe" src="/assets/img/final_exp.svg">
+
+            <h3>TAKEAWAYS</h3>
+
+            <p>Trying to prioritize your responsibilities as a student while tackling sickness is incredibly tough, especially in college. The workload continues to pile on regardless if you're actually recovering. My team really wanted to hone in on this struggle because at the start of this project, we were all sick. We personally felt how mentally and physically challenging it was to attempt at getting anything accomplished yet be frustrated because you're physically not well enough to be productive and work hard. We can't make our bodies recover as quickly as we would like but at least we can tackle and readjust our work ethic during those difficult times. We designed Focus with this hope in mind.</p>
+            <br>
+            <p>Looking back on this now, I really enjoyed in having hand in every part of the design process even if I'm weaker in certain areas compared to others. As the UX Designer and the User Testing Specialist, I really enjoyed composing wireframes and developing the scripts and protocol for user testing. I enjoy learning new insights and grasping the differences between a designer's mental model and a user's mental model.</p>
+            <br>
+            <p>Going into the future, I know that our rewards in the shop aren't very strong incentives which weaken the usability of our application. Another caveat is that many students use their computers to study, whether it's to scroll through notes or to watch podcasts. Hence, switching among tabs on a browser is very necessary and shouldn't count against the user while they are trying to earn points for a productivity session. Given more time, we would have liked to implement a way to track websites that students often go to that would serve as distractions and have Focus track these sites so that when a user does navigate away, they can cancel a productivity session under the appropriate circumstances.</p>
+
+
+      </div>
+  </body>
+</html>

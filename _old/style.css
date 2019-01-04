@@ -1,0 +1,553 @@
+
+html {
+	background-color: white;
+	width: 100%;
+	height:100%;
+} 
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height:100%;
+    overflow: scroll;
+	font-family: Proxima Nova, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.left a {
+	text-decoration: none;
+	color: #ffcc00;
+	cursor: pointer;
+    user-select: none;
+}
+
+.right a {
+	text-decoration: none;
+	color: #ffcc00;
+    cursor: pointer;
+    user-select: none;
+}
+
+header {
+	position:absolute;
+	top:0; /* y coordinate */
+	left:0; /* x coordinate */ 
+	width:100%; /* stretches to the ends of the page */
+	height:15%;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	font-family: Proxima Nova ,Helvetica, sans-serif; 
+	font-size: 40px; 
+	z-index:1; /* z height is the floating height between the header and the body*/ 
+}
+.main-content {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#navbar {
+	background-color: #dddddd;
+    position: absolute;
+    overflow: scroll;
+    bottom: 0;
+    height: 30%;
+    min-height: 30px;
+    width: 100%;
+    color:#ffcc00;
+}
+
+#left {
+    height: 100%;
+    width: 50%;
+}
+
+#left .button{
+    position: absolute;
+    height: 25px;
+    font-size: 25px;
+    bottom: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+#right {
+    height: 100%;
+    width: 50%;
+}
+
+#right .button{
+    position: absolute;
+    height: 25px;
+    font-size: 25px;
+    bottom: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* work in progress*/ 
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.main-content:before,
+.main-content:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.main-content:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.main-content {
+    position: relative;
+    height: 100%;
+    color: #FFFFFF;
+ 
+}
+
+section {
+	font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-size: 40px;
+}
+
+/** INTRODUCTION SECTION */ 
+.photography-section {
+	position: relative;
+	margin-top: 11%;
+	width: 100%;
+	float:left;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 3px solid #ffcc00;
+}
+
+.photography-section a {
+	margin: 0 auto;
+	color: #ffcc00;
+
+}
+
+.photography-section p {
+	position: absolute;
+	width: 100%;
+	top: 50px;
+	text-align: center;
+	font-size: 35px;
+	margin-left: 15px;
+
+}
+
+.photography-section img {
+	/*min-height:100%; 
+	min-width:100%;*/
+}
+
+.invisible-element {
+	position: absolute;
+	top:-100px;
+}
+
+/** ABOUT ME SECTION */ 
+
+.about-me {
+	position: relative;
+	width: 100%;
+	height: 750px;
+	float:left;
+	text-align: center;
+	overflow: scroll;
+	border-bottom: 3px solid #ffcc00;
+	margin: 0 auto;
+	color: #ffcc00;
+}
+
+.description-section {
+    position: relative;
+	width: 33%;
+	height: auto;
+	display: inline-block;
+	margin: 0 0;
+    margin-top: 2%;
+	float: left;
+}
+
+.contact-main-section {
+	position: relative;
+	width: 100%;
+	height: 450px;
+	float:left;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+
+.contact-section {
+	width: 50%;
+	height:100%;
+	display: inline-block;
+	margin: 0 0;
+	float: left;
+}
+
+.contact-section p {
+	margin-top: 5px;
+	font-size: 25px;
+	color:#919394;
+}
+
+#contact-section-title p {
+	color: #ffcc00;
+	font-size:40px;
+	margin-top: 5px; 
+	margin-bottom: 5px;
+
+}
+
+.contact-section img {
+	
+	padding-top: 130px;
+	width:40%;
+	height:40%;
+}
+
+#contact-main-title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	margin-left: 15px;
+	color: #ffcc00;
+	margin-top: 15px;
+}
+
+.about-me img {
+	box-sizing: content-box;
+	margin-left: 3%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+	height: auto;
+	width: 50%;
+	
+}
+
+.about-me p {
+	/**position: relative;
+	/*width: 100%;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 15px;
+	margin-right:15px;
+    margin-top: .5%;
+	color: #919394;
+	*/
+
+}
+
+#about-me-title {
+	box-sizing: content-box;
+	position: relative;
+	width: 100%;
+	padding-top: 13%;
+
+	
+}
+
+
+#about-me-title p {
+	box-sizing: content-box;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 28px;
+	color: #ffcc00;
+}
+
+
+#hello p {
+	color: #919394;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: 15%;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 16px;
+}
+
+#current-projects p {
+	color: #ffcc00;
+	padding-top: 7%;
+	padding-left: 37%;
+	text-align: left; 
+	font-size: 28px;
+}
+
+#current-projects ul {
+	color: #919394;
+	padding-left: 42.5%;
+	list-style-type: circle;
+	text-align: left; 
+	font-size: 16px;
+}
+
+.hover-container {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+}
+
+.image {
+ 	display: block;
+	width: 100%;
+ 	height: auto;
+}
+
+
+.design-main {
+	overflow: hidden;
+	border-bottom: 3px solid #ffcc00;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(57,58,58, 0.9);
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	-webkit-transform:scale(0);
+	transition: .3s ease;
+}
+
+.hover-container:hover .overlay {
+	transform: scale(1)
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#dfa {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin-top: 18%;
+	margin-right: 1.5%;
+}
+
+#vr {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	float:right;
+	margin-top: 18%;
+	margin-left: 1.5%;
+}
+
+
+#cogsci {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin-top: 3%;
+	
+
+}
+
+#daily {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	float:right;
+	margin-top: 3%;
+	margin-left: 1.5%;
+}
+
+.description-section ul {
+	list-style-type: circle;
+    margin: 6% 5%;
+	/*padding: 0 20%;*/
+	text-align: left;
+	color: #919394;
+}
+
+#description-section-title {
+	position: relative;
+	width: 100%;
+	font-size: 28px;
+	text-align: center;
+	color: #ffcc00;
+    margin-top: 1%;
+}
+
+.mybutton {
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 2%;
+	border:0;
+	background-color: #919394;
+	color: white;
+	position:relative;
+	font-family: Proxima Nova ,Helvetica, sans-serif; 
+	font-size: 16px; 
+
+}
+
+
+.cogscibutton {
+	width: 200px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: #919394;
+	color: white;
+	position:absolute;
+	top:65%;
+	left:65%;
+	font-family: Proxima Nova ,Helvetica, sans-serif; 
+	font-size: 16px; 
+
+}
+
+
+.uibutton {
+	width: 200px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: #919394;
+	color: white;
+	position:absolute;
+	top:55%;
+	left:63%;
+	font-family: Proxima Nova ,Helvetica, sans-serif; 
+	font-size: 16px; 
+
+}
+
+.resumebutton:hover {
+	background-color: #FFCC00;
+}
+/** PROJECTS SECTION **/ 
+
+.projects-main {
+	position: relative;
+	width: 100%;
+	height: auto;
+	float:left;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 3px solid #ffcc00;
+	margin: 0 auto;
+	color: #ffcc00;
+}
+
+.projects-section {
+    position: relative;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.projects-section .img {
+	display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+	float: left;
+}
+
+.projects-section .img img {
+    position: relative;
+	box-shadow: 4px 4px 39px -3px rgba(0,0,0,0.75);
+	height: auto;
+	width: 80%;
+    margin: 5% 10%;
+}
+
+.projects-section .desc {
+	display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+	float: left;
+}
+
+.projects-section .desc h1{
+    color: #003399;
+    margin-right: 10%;
+}
+.projects-section .desc p{
+    margin-right: 10%;
+}
+
+.cogsci-section img {
+	box-shadow: 4px 4px 39px -3px rgba(0,0,0,0.75);
+
+	margin-top:100px;
+	height: auto;
+	width: 40%;
+	height: 100%;
+	margin-left:50px;
+}
+
+
+.projects-main {
+	position: relative;
+	/*width: 100%;*/
+	text-align: left;
+	font-size: 16px;
+	color: #919394;
+
+}
+
+#projects-title {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	color: #ffcc00;
+    margin-top: 3%;
+
+}
+
+
+
+footer {
+	margin: 0 1.5% 24px 1.5%;
+}

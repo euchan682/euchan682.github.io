@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="70px" viewBox="0 0 220 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>eunicelogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="eunicelogo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="OpenSans-SemiBold, Open Sans" font-weight="500">
+        <text id="nice" font-size="42" fill="#64A0CB" text-decoration="underline">
+            <tspan x="94.3178711" y="46">nice</tspan>
+        </text>
+        <text id="eu" font-size="54" fill="#64A0CB">
+            <tspan x="29.3046875" y="52">eu</tspan>
+        </text>
+    </g>
+</svg>

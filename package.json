@@ -1,0 +1,23 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_server.js",
+  "scripts": {
+    "test": "node test_server.js",
+    "start": "node test_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euchan682/euchan682.github.io-.git"
+  },
+  "author": "Eunice Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/euchan682/euchan682.github.io-/issues"
+  },
+  "homepage": "https://github.com/euchan682/euchan682.github.io-#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

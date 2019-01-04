@@ -1,0 +1,321 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: scroll;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*******************************************************************/
+
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Style tab links */
+.tablink {
+    font-family: "Cabin", sans-serif;
+    background-color: #6D6D6D;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.tablink:hover {
+    background-color: #B2B2B2;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 5% 10%;
+}
+
+#Tutorial {background-color: white;}
+#Search {background-color: white;}
+
+/*******************************************************************/
+
+
+h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 52px;
+  /*text-shadow: 2px 2px 5px black;*/
+  margin: 0 auto;
+  padding-top: 20%;
+  color: white;
+  /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; */
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.main {
+  color: black;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.fit {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#173753, #6DAEDB);
+  background-repeat: no-repeat;
+}
+
+.stats {
+  width: 90%;
+  background-color: #ECF6FF;
+  border-radius: 15px 15px 0px 0px;
+  padding: 15px 0px;
+  /* top left top right bottom right bottom left */
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 1px;
+  margin: 0 auto;
+  left: 5%;
+
+}
+
+.item {
+  width: 33%;
+  position: relative;
+  border-left: 1px solid #64A0CB;
+}
+
+#oops {
+  border-left: 30px solid #ECF6FF;
+}
+
+.overview {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ECF6FF;
+  color: black;
+  padding: 5% 10%;
+  text-align: left;
+}
+
+/** tutorial static slide img */
+
+.static {
+  display: block;
+  margin: 2% auto; 
+  width: 65%;
+  height: auto;
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+
+}
+
+/* first iteration of tutorial sys */
+
+.first-mistake {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.implement {
+  display: inline-block;
+  margin: 2% auto;
+  width: 30%;
+  height: 45%;
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+
+}
+
+/* tutorial sys | first and second iteration */
+.brainstorm{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.sketch {
+  display: inline-block;
+  margin-top: 2%;
+  width: 30%;
+  height: 45%;
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+
+}
+
+#tilt {
+  width: 30%;
+  height: 45%;
+}
+
+/* user testing round 2*/
+.row {
+  box-sizing: border-box;
+  width: auto;
+  /* to override home.css .row's css */ 
+  margin: 2% auto; 
+}
+
+.column {
+  box-sizing: border-box;
+  display: block;
+  width: 50%;
+}
+
+#sketch-exp {
+  padding-right: 25px;
+}
+
+#large-sketch {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+
+}
+
+#user-exp {
+  text-align: right;
+}
+
+#user-block {
+  padding-right: 10px;
+  display: inline-block;
+  width: 90%;
+  border: 1px solid #DDDDDD; 
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
+/* user testing 1 + tutorial sketch */
+.single {
+  display: block;
+  margin: 2% auto;
+  border: 1px solid #DDDDDD; 
+  width: 700px;
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
+
+/* final iteration*/
+.usertest-2{
+  margin: 2% auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.gif {
+  box-sizing: border-box;
+  width: 33%;
+  margin: 0 1%;
+}
+
+.gif p {
+  padding: 0 5px;
+  text-align: center;
+}
+
+.finalgif{
+  width: 100%;
+  margin: 2% auto;
+}
+
+/* category filter year wireframe*/
+#year {
+  width: 250px;
+}
+
+#categories {
+  width: 300px;
+}
+
+#search {
+  width: 300px;
+}
+
+/* final product demo yt link */
+
+.final-product {
+  font-size: 22px;
+  margin: 8px 16px;
+  text-align: center;
+}
+
+/* TODO: navbar */
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  box-shadow: 0px 2px 20px 0px black;
+  z-index: 2;
+  background-color: #173753;
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  float: right;
+  padding: 16px;
+  display: inline-block;  
+  font-size: 24px;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo li {
+  font-weight: bold;
+  float: left;
+}
+
+
+
+

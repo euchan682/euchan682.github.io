@@ -1,0 +1,192 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  max-height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: scroll;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+}
+
+.row {
+  margin: 24px 0px;
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin: 8px 24px;
+  bottom: 0;
+
+}
+
+.profile {
+  top: 0;
+  position: sticky;
+  width: 440px;
+  height: 700px;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif; 
+  font-size: 52px;
+  margin-top: 42px;
+  margin-bottom: 12px;
+  color: #64A0CB;
+
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 34px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #64A0CB;
+
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: #64A0CB;
+}
+
+.subhead {
+  font-family: "Open Sans", sans-serif; 
+  font-weight: bold;
+  font-size: 28px; 
+  color: #64A0CB;
+  margin: 2px 0px;
+
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+.sub-row {
+  display: flex;
+}
+
+.sub-column {  
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  flex: 33%;
+  border: 2px solid #64A0CB;
+  margin: 32px 16px;
+  padding: 16px 0px;
+
+}
+
+#skills {
+  margin-left: 0px;
+}
+
+#design {
+  margin-right: 0px;
+}
+
+.contact {
+  margin: 24px 0px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+}
+/* uncomment to hide chrome scrollbar */
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+/* TODO: navbar */
+
+header {
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  box-shadow: 0px 2px 20px 0px black;
+  z-index: 2;
+  background-color: #64A0CB;
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  float: right;
+  padding: 16px;
+  display: inline-block;  
+  font-size: 24px;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo li {
+  font-weight: bold;
+  float: left;
+}
+
+/** socials **/
+
+.contact {
+  margin: 42px 0px;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #64A0CB;
+}
+
+.fa-linkedin {
+  color: #64A0CB;
+}
+
+.fa-github {
+  color: #64A0CB;
+}
+
+.copyright {
+  margin: 1% auto;
+  text-align: center;
+}
+
+
+
+/* TODO: mid-scroll */

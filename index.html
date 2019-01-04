@@ -1,81 +1,75 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-	<head> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eunice Chan">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<title>Eunice Chan</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="newstyle.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans|Oxygen" rel="stylesheet">
-		<!-- add matthew icon :)) --> 
-	</head>
 
+    <title>Eunice Chan</title>
+    <!-- Main background style for every page -->
+    <link href="assets/css/home.css" rel="stylesheet" type="text/css">
 
-	<body>
+    <!-- Custom styles for this template -->
 
-		<header>
-			<!-- insert navbar here -->
-			<div class="mynavbar">
-				<ul>
-					<li> <a href="/">Home</a> </li> <!--insert logo--> 
-					<li> <a href="/about">About</a> </li>
-					<li> <a href="/work">Work</a> </li>
-					<li> <a href="/photography">Photography</a> </li>
-				</ul>
-			</div>
-		</header>
-
-		<!-- loading pics onto carousel, media querying for carousel -> 
-		<!- carousel for photography --> 
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="d-block w-100" src="beach.jpg" alt="First slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="lacmafinal.jpg" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="sunset.jpg" alt="Third slide">
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true">
-				</span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true">
-				</span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-
-		<footer> 
-			<div class="social">
-				<a href="https://www.facebook.com/eunice.chan.980" class="fa fa-facebook"> 
-					<img src="facebook.svg">
-				</a>
-				<a href="www.linkedin.com/in/eunice-chan-5b8060151" class="fa fa-linkedin">
-					<img src="linkedin.svg">
-				</a>
-				<a href="https://github.com/euchan682" class="fa fa-github">
-					<img src="github.svg">
-				</a>
-				<a href="https://devpost.com/euchan" class="fa fa-devpost">
-					<img src="devpost.svg">
-				</a>
-
-				<a href="euchan@ucsd.edu" class="fa fa-email">
-					<img src="mail.svg">
-				</a>
-			</div>
-		</footer>
-
-		<!-- necessary javascript stuff --> 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script src="navbar.js"></script>
-
-	</body>
+  </head>
+  <body>
+    <header>
+      <!-- TODO: header and logic -->
+      <ul class="nav">
+        <li><a id="resume" href="assets/img/2019.pdf" download>resume</a></li>
+        <li><a id="about" href="about/index.html">about</a></li>
+        <li><a id="home" href="index.html">home</a></li>
+        <div class="logo">
+          <li><a href="index.html">eunice chan</a></li> 
+        </div>  
+      </ul>
+    </header>
+    <div id="main-scroll" >
+       <h1 class="title">Hello. I'm Eunice, an aspiring UI/UX designer and UX researcher.</h1>
+       <div class="projects">
+         <h2>projects</h2>
+            <div class="vr row">
+              <div class="column">
+                <img id="vrlogo" src="/assets/img/VRUniverseLogo.png">
+              </div>
+              <div class="column">
+                <h2 class="projectitle">VR Universe</h2>
+                <p>VR Universe is an immersive virtual reality environment that showcases all past and future projects from UCSD's very own virtual reality student organization, Triton XR.</p>
+                <a class="btn" id="vrbtn" href="vr/index.html">Learn more</a>
+              </div>
+            </div>
+            <div class="cogs120 row">
+              <div class="column">
+                <h2 class="projectitle">Focus</h2>
+                <p>Focus is a web application that promotes efficient, distraction-free studying using a points-based rewards system.</p>
+                <a class="btn" id="cogsbtn" href="cogs120/index.html">Learn more</a>
+              </div>
+              <div class="column">
+                  <img id="cogslogo" src="/assets/img/focuslogo.png">
+              </div>
+            </div>
+        </div>
+          <!-- figure out how to link buttons --> 
+      <div class="contact">
+        <h2>connect with me</h2>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <p class="copyright" style="color:#64A0CB">Made with love, Eunice Chan 2019</p>
+      </div>
+         <!-- insert contact info (LinkedIn, Github, Facebook, Email)-->
+    </div>
+    <!-- Useful JS Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  </body>
+</html>
