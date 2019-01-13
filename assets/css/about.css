@@ -187,6 +187,109 @@ header {
   text-align: center;
 }
 
+/** media query **/ 
+@media screen and (max-width: 767px) {
+  h1 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 28px;
+    margin: 48px 0px 24px 0px;
+    color: #64A0CB;
+
+  }
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    margin: 24px 0px;
+    color: #64A0CB;
+
+  }
+
+  .profile {
+    top: 0;
+    position: static;
+    width: 100%;
+    /*width: 300px;
+    height: 500px;*/
+  }
+
+  .row {
+    margin: 24px 0px;
+    display: inline-block;
+  }
+
+  .column {
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px 4px;
+    bottom: 0;
+
+  }
+
+  .nav li {
+    float: right;
+    padding: 12px;
+    display: inline-block;  
+    font-size: 18px;
+
+  }
+
+  .logo li {
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .subhead {
+    font-family: "Open Sans", sans-serif; 
+    font-weight: bold;
+    font-size: 16px; 
+    color: #64A0CB;
+    margin: 2px 0px;
+
+  }
+
+  .sub-row {
+    display: inline-block;
+  }
+
+  .sub-column {  
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #64A0CB;
+    margin: 16px 4px;
+    padding: 8px 24px;
+
+  }
+
+  ul > li {
+    font-size: 12px;
+  }
+
+  .contact {
+    margin: 48px 0px 12px 0px;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 8px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+}
+
 
 
 /* TODO: mid-scroll */
