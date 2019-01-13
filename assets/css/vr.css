@@ -194,6 +194,10 @@ h2 {
   width: 50%;
 }
 
+.new_exp {
+  display: none;
+}
+
 #sketch-exp {
   padding-right: 25px;
 }
@@ -223,7 +227,7 @@ h2 {
   display: block;
   margin: 2% auto;
   border: 1px solid #DDDDDD; 
-  width: 700px;
+  width: 100%;
   box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
 }
 
@@ -316,6 +320,152 @@ header {
   float: left;
 }
 
+
+/** media query **/
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; */
+  }
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin: 18px 10px;
+    color: #64A0CB;
+
+  }
+
+  .fit {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(#173753, #6DAEDB);
+    background-repeat: no-repeat;
+  }
+
+  .stats {
+  width: 90%;
+  background-color: #ECF6FF;
+  border-radius: 12px 12px 0px 0px;
+  padding: 10px 0px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 1px;
+  margin: 0 auto;
+  /*left: 5%;*/
+  }  
+
+  .item {
+    width: 33%;
+    position: relative;
+    border-left: 1px solid #64A0CB;
+  }
+
+  .item p {
+    margin: 4px 8px ;
+    font-size: 8px;
+  }
+
+  #role h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  #oops {
+    border-left: 2px solid #ECF6FF;
+  }
+
+  .overview {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ECF6FF;
+    color: black;
+    padding: 4% 8%;
+    text-align: left;
+  }
+
+  .overview p {
+    font-size: 8px;
+  }
+
+
+  .nav li {
+    float: right;
+    padding: 12px;
+    display: inline-block;  
+    font-size: 18px;
+
+  }
+
+  .logo li {
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    font-weight: bold;
+  }
+
+  .tablink {
+    font-size: 14px;
+  }
+
+  .tabcontent h2 {
+    display: none;
+  }
+
+  .tabcontent h3 {
+    font-size: 12px;
+  }
+
+  .tabcontent p {
+    font-size: 8px;
+  }
+
+  .single {
+    display: block;
+    margin: 2% auto;
+    border: 1px solid #DDDDDD; 
+    width: 100%;
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+  }
+
+  .new_exp {
+    display: inline-block;
+  }
+
+  .row {
+    display: none;
+  }
+
+  .usertest-2{
+    margin: 2% auto;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .gif {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 1%;
+  }
+
+  .tabcontent h4 {
+    font-size: 10px;
+  }
+
+  .finalgif {
+    margin: 0 auto;
+  }
+}
 
 
 
