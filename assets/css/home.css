@@ -126,10 +126,6 @@ p {
 
 }
 
-.vrbtn {
-  background-color: #6DAEDB;
-}
-
 #vrlogo {
   width: 100%;
 }
@@ -154,55 +150,86 @@ p {
   height: 104px;
 }
 
-.cogsbtn {
-   background-color: #B4BED2;
-}
-
 .btn:hover {opacity: 0.6}
 /* uncomment to hide chrome scrollbar */
 /*::-webkit-scrollbar {
     display: none;
 }*/
 
+
 /* TODO: navbar */
 header {
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
   height: 70px;
-  box-shadow: 0px 2px 20px 0px black;
+  /*box-shadow: 0px 2px 20px 0px black;*/
   z-index: 2;
-  background-color: #64A0CB;
+  background-color: white;
 }
 
-.nav {
-  list-style-type: none;
-  text-align: center;
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
 }
 
-.nav ul {
-  margin: 0;
-  padding: 0;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-.nav li {
-  float: right;
-  padding: 16px;
-  display: inline-block;  
-  font-size: 24px;
-
-}
-
-.nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.logo li {
-  font-weight: bold;
+.topnav a {
   float: left;
+  color: #808080;
+  text-align: center;
+  padding: 14px 32px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav a:hover {
+  color: #64A0CB;
+}
+
+/* if we're on this page , activate this color */
+.topnav a.active {
+  color: #64A0CB;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bolder;
+  /* (x,y) (L/R, up/down) negative means more left/up, positive is right/down */
+  /* (0,0) takes the top left corner of the link and aligns it and the top middle of the page*.*/
+  transform: translate(-50%, -50%); 
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+/** scroll to top button **/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border: solid 2px #64A0CB;
+  background-color: white;
+  color: #64A0CB;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+#myBtn:hover {
+  background-color: #64A0CB;
+  color: white;
+  opacity: 0.6;
 }
 
 /** socials **/

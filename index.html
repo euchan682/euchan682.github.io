@@ -22,20 +22,30 @@
   </head>
   <body>
     <header>
-      <!-- TODO: header and logic -->
-      <ul class="nav">
-        <li><a id="resume" href="assets/img/2019.pdf" download>resume</a></li>
-        <li><a id="about" href="about/index.html">about</a></li>
-        <li><a id="home" href="/">home</a></li>
-        <div class="logo">
-          <li><a href="/">eunice chan</a></li> 
-        </div>  
-      </ul>
+      <!-- Top navigation -->
+      <div class="topnav">
+
+        <!-- Centered link -->
+        <div class="topnav-centered">
+          <a href="/" class="active">EUNICE CHAN</a>
+        </div>
+        
+        <!-- Left-aligned links (default) -->
+        <a href="#news">News</a>
+        
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+          <a href="about/index.html">About</a>
+        </div>
+        
+      </div>
+
     </header>
-    <div id="main-scroll" >
-       <h1 class="title">Hello. I'm Eunice, an aspiring UI/UX designer and UX researcher.</h1>
+
+    <div id="main-scroll">
+       <h1 class="title">Hi, I'm Eunice. I craft with empathy-led design.</h1>
        <div class="projects">
-         <h2>projects</h2>
+         <h2>Projects</h2>
             <div class="vr row">
               <div class="column">
                 <img id="vrlogo" src="/assets/img/VRUniverseLogo.png">
@@ -57,6 +67,8 @@
               </div>
             </div>
         </div>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
           <!-- figure out how to link buttons --> 
       <div class="contact">
         <h2>connect with me</h2>
@@ -68,8 +80,27 @@
          <!-- insert contact info (LinkedIn, Github, Facebook, Email)-->
     </div>
     <!-- Useful JS Libraries -->
+
+    <script>
+     // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 1300 || document.documentElement.scrollTop > 1300) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
   </body>
 </html>
