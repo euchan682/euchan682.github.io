@@ -16,21 +16,31 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#main-scroll {
+  margin: 48px 0px;
+
+}
+
 .row {
-  margin: 24px 0px;
+  box-sizing: border-box;
+  width: auto;
+  margin: 0.2% auto;
   display: flex;
 }
 
 .column {
   flex: 50%;
-  margin: 8px 24px;
+  box-sizing: border-box;
+  background-image: linear-gradient(#173753, #6DAEDB);
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 15px 15px;
+  display: block;
+  width: 46%;
+  padding: 4% 4%;
+  margin: 3% 6%;
 
 }
 
-.profile {
-  width: 440px;
-  height: 700px;
-}
 
 h1 {
   font-family: "Open Sans", sans-serif; 
@@ -43,7 +53,7 @@ h1 {
 h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 48px;
-  margin: 48px 0px;
+  margin: 18px 0px;
   color: #64A0CB;
 
 }
@@ -83,6 +93,10 @@ p {
   color: #173753;
 }
 
+#dfabtn:hover {
+  color: #596686;
+}
+
 #cogsbtn:hover {
   color: #5A709E;
 }
@@ -90,64 +104,44 @@ p {
 .projects{
   display: block;
   text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .projectitle {
+  margin: 0px 0px 14px 0px;
+  font-size: 40px;
   color: white;
 }
 
-.row {
+.proj {
   box-sizing: border-box;
-  width: auto;
-  margin: 2% auto; 
-}
-
-.column {
-  box-sizing: border-box;
-  display: block;
-  width: 50%;
-}
-
-.vr {
-  border-radius: 15px 15px 15px 15px;
-  box-sizing: border-box;
-  background-image: linear-gradient(#173753, #6DAEDB);
-  background-repeat: no-repeat;
   color: white;
 }
 
-.vr p {
-  float: left;
-  font-size: 28px;
+.proj p {
+  font-size: 18px;
   text-align: center;
-  margin-bottom: 96px;
+  margin-bottom: 48px;
 
 }
 
 #vrlogo {
-  width: 100%;
+  width: 80%;
 }
 
 .cogs120 {
-  border-radius: 15px 15px 15px 15px;
-  box-sizing: border-box;
   background-image: linear-gradient(#5A709E, #B4BED2);
   background-repeat: no-repeat;
-  color: white;
 }
 
-.cogs120 p {
-  float: right;
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 96px;
+.dfa {
+  background-image: linear-gradient(#1C2D59, #596686);
+  background-repeat: no-repeat;
+
 }
 
 #cogslogo {
-  margin: 35% 2%;
-  height: 104px;
+  margin: 12% 2%;
+  height: 46%;
 }
 
 .btn:hover {opacity: 0.6}
