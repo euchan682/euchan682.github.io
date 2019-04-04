@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Eunice Chan">
+    <link rel="icon" href="assets/img/eunicelogo edit.png">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Eunice Chan</title>
+    <!-- Main background style for every page -->
+    <link href="../assets/css/home.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/creative.css" rel="stylesheet" type="text/css">
+
+
+  </head>
+  <body>
+    <header>
+      <!-- Top navigation -->
+      <div class="topnav">
+
+        <!-- Centered link -->
+        <div class="topnav-centered">
+          <a href="/" class="active">EUNICE CHAN</a>
+        </div>
+        
+        <!-- Left-aligned links (default) -->
+        <a href="index.html" class="active">Creative</a>
+        
+        <!-- Right-aligned links -->
+        <div class="topnav-right">
+          <a href="../about/index.html">About</a>
+        </div>
+        
+      </div>
+
+    </header>
+
+    <div id="main-scroll">
+       <h1 class="title">Hey there! Here are some other cool things I'm exploring.</h1>
+       <div class="projects">
+         <h2>CREATIONS</h2>
+            <div class="proj row">
+             <div class="dfa column">
+                <img id="logo" src="/assets/img/camera.svg">
+                <h2 class="projectitle">PHOTOGRAPHY</h2>
+                <p>Snapshots of people and places I love</p>
+                <a class="btn" href="photo/index.html">Take a peep</a>
+              </div>
+              <div class="cogs120 column">
+                <img id="logo" src="/assets/img/pen tool.svg">
+                <h2 class="projectitle">ARTPOWER</h2>
+                <p>Empowering media and performing arts at UCSD</p>
+                <a class="btn" href="artpower/index.html">Check me out</a>
+              </div>
+            </div>
+            <!--<div class="proj row">
+              <div class="vr column">
+                <img id="logo" src="/assets/img/vr.svg">
+                <h2 class="projectitle">VR UNIVERSE</h2>
+                <p>Triton XR's comprehensive VR portfolio, built with Unity and C#.</p>
+                <a class="btn" href="vr/index.html">Learn more</a>
+              </div>
+              <div class="infopp column">
+                <img id="logo" src="/assets/img/dog.svg">
+                <h2 class="projectitle">INFOPUPPIES</h2>
+                <p>Coming soon</p>
+                <<a class="btn" id="cogsbtn" href="cogs120/index.html">Learn more</a>
+              </div>
+            </div>-->
+        </div>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button>
+          <!-- figure out how to link buttons --> 
+      <div class="contact">
+        <h2>connect with me</h2>
+            <a href="https://www.linkedin.com/in/euchan-ec/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/euchan682" class="fa fa-github"></a>
+            <a href="https://www.facebook.com/eunice.chan.980" class="fa fa-facebook"></a>
+            <p class="copyright" style="color:#64A0CB">Made with love, Eunice Chan 2019</p>
+      </div>
+         <!-- insert contact info (LinkedIn, Github, Facebook, Email)-->
+    </div>
+    <!-- Useful JS Libraries -->
+
+    <script>
+     // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 1470 || document.documentElement.scrollTop > 1470) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+  </body>
+</html>

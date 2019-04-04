@@ -1,0 +1,338 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  max-height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: scroll;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+#main-scroll {
+  margin: 48px 128px;
+
+}
+
+.profile {
+  display: block;
+  margin: 96px auto 24px auto;
+  width: 440px;
+  height: 700px;
+}
+
+#profile {
+  font-size: 12px;
+  text-align: center;
+  margin: 1% auto;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif; 
+  font-size: 52px;
+  margin-top: 42px;
+  margin-bottom: 0px;
+  color: #64A0CB;
+
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold; 
+  margin-top: 0px;
+  margin-bottom: 24px;
+  color: #64A0CB;
+
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: #64A0CB;
+}
+
+.tools {
+  color: #64a0cb;
+}
+
+p {
+  font-size: 20px;
+  color: #808080;
+}
+
+
+.thumbnail {
+  max-width: 40%;
+}
+
+/** lightbox stuff **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+/* uncomment to hide chrome scrollbar */
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+/* TODO: navbar */
+
+header {
+  width: 100%;
+  /*osition: fixed;*/
+  height: 70px;
+  /*box-shadow: 0px 2px 20px 0px black;*/
+  z-index: 2;
+  background-color: white;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: #808080;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav a:hover {
+  color: #64A0CB;
+}
+
+/* if we're on this page , activate this color */
+.topnav a.active {
+  color: #64A0CB;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bolder;
+  /* (x,y) (L/R, up/down) negative means more left/up, positive is right/down */
+  /* (0,0) takes the top left corner of the link and aligns it and the top middle of the page*.*/
+  transform: translate(-50%, -50%); 
+}
+
+.topnav-right {
+  float: right;
+}
+
+/**
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  float: right;
+  padding: 16px;
+  display: inline-block;  
+  font-size: 24px;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo li {
+  font-weight: bold;
+  float: left;
+}**/
+
+/** socials **/
+
+.contact {
+  margin: 42px 0px;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #64A0CB;
+}
+
+.fa-linkedin {
+  color: #64A0CB;
+}
+
+.fa-github {
+  color: #64A0CB;
+}
+
+.copyright {
+  margin: 1% auto;
+  text-align: center;
+}
+
+/** media query **/ 
+@media screen and (max-width: 767px) {
+  h1 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 28px;
+    margin: 48px 0px 24px 0px;
+    color: #64A0CB;
+
+  }
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    margin: 24px 0px;
+    color: #64A0CB;
+
+  }
+
+  .profile {
+    top: 0;
+    position: static;
+    width: 100%;
+    /*width: 300px;
+    height: 500px;*/
+  }
+
+  .row {
+    margin: 24px 0px;
+    display: inline-block;
+  }
+
+  .column {
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px 4px;
+    bottom: 0;
+
+  }
+
+  .nav li {
+    float: right;
+    padding: 12px;
+    display: inline-block;  
+    font-size: 18px;
+
+  }
+
+  .logo li {
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .subhead {
+    font-family: "Open Sans", sans-serif; 
+    font-weight: bold;
+    font-size: 16px; 
+    color: #64A0CB;
+    margin: 2px 0px;
+
+  }
+
+  .sub-row {
+    display: inline-block;
+  }
+
+  .sub-column {  
+    border-radius: 12px 12px 12px 12px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #64A0CB;
+    margin: 16px 4px;
+    padding: 8px 24px;
+
+  }
+
+  ul > li {
+    font-size: 12px;
+  }
+
+  .contact {
+    margin: 48px 0px 12px 0px;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 8px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+}
+
+
+
+/* TODO: mid-scroll */

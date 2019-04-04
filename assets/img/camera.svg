@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="camera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(31.000000, 37.000000)" stroke-width="3">
+            <path d="M57.5,46 L2,46" id="Line" stroke="#64A0CB" stroke-linecap="square"></path>
+            <path d="M1,45.6359327 L1,13.7660306" id="Line" stroke="#64A0CB" stroke-linecap="square"></path>
+            <path d="M45,45.6359327 L45,13.7660306" id="Line" stroke="#64A0CB" stroke-linecap="square"></path>
+            <path d="M16,11.9479118 L21.4212277,1.55827803" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M34,11.9479118 L38.5,1.5" id="Line" stroke="#979797" stroke-linecap="square" transform="translate(36.500000, 6.500000) scale(-1, 1) translate(-36.500000, -6.500000) "></path>
+            <path d="M58,45.6359327 L58,13.7660306" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M57.5,13 L1,13" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M32.5,1 L22.5,1" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <circle id="Oval" stroke="#64A0CB" cx="23" cy="30" r="8"></circle>
+        </g>
+    </g>
+</svg>
