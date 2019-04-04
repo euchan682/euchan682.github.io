@@ -62,8 +62,10 @@ h3 {
   color: #64A0CB;
 }
 
-.btn {
+.align {
   text-align: center;
+  margin: 96px 4px;
+
 }
 
 .button {
