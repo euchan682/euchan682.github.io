@@ -134,6 +134,14 @@ h2 {
   width: 100%;
 }
 
+.double {
+  display: inline-block;
+  margin: 2% auto;
+  border: 1px solid #DDDDDD; 
+  width: 300px;
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
 /* final product demo yt link */
 
 .final-product {
