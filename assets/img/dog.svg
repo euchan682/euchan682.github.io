@@ -4,23 +4,12 @@
     <title>dog</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="dog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Group" transform="translate(26.000000, 31.000000)" stroke-width="3">
-            <path d="M11.5,19.5 L11.5,43.5" id="Line-5" stroke="#979797"></path>
-            <path d="M58.5,20.5 L58.5,44.5" id="Line-5" stroke="#979797"></path>
-            <path d="M29.5,57 L21,57" id="Line-5" stroke="#979797"></path>
-            <path d="M48.5,57 L40,57" id="Line-5" stroke="#979797"></path>
-            <path d="M40.5,39 L28.5,39" id="Line-5" stroke="#64A0C9"></path>
-            <path d="M50.5,56.5 L57.5,45.5" id="Line" stroke="#979797"></path>
-            <path d="M11.5,18.5 L18.5,7.5" id="Line" stroke="#979797"></path>
-            <path d="M0.5,19.5 L13.5,1.5" id="Line" stroke="#979797"></path>
-            <path d="M12.5,56.5 L19.5,45.5" id="Line" stroke="#979797" transform="translate(16.000000, 51.000000) scale(-1, 1) translate(-16.000000, -51.000000) "></path>
-            <path d="M51.5,18.5 L58.5,7.5" id="Line" stroke="#979797" transform="translate(55.000000, 13.000000) scale(-1, 1) translate(-55.000000, -13.000000) "></path>
-            <path d="M29.5,45.5 L34.5,40.5" id="Line" stroke="#64A0C9" transform="translate(32.000000, 43.000000) scale(-1, 1) translate(-32.000000, -43.000000) "></path>
-            <path d="M34.5,56.5 L38.5,52.5" id="Line" stroke="#979797" transform="translate(36.500000, 54.500000) scale(-1, 1) translate(-36.500000, -54.500000) "></path>
-            <path d="M35.5,44.5 L39.5,40.5" id="Line" stroke="#64A0C9"></path>
-            <path d="M31.5,56.5 L35.5,52.5" id="Line" stroke="#979797"></path>
-            <path d="M56.5,19.5 L69.5,0.5" id="Line" stroke="#979797" transform="translate(63.000000, 10.000000) scale(-1, 1) translate(-63.000000, -10.000000) "></path>
+    <g id="dog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(26.000000, 31.000000)" stroke="#979797" stroke-linecap="round" stroke-width="3">
+            <path d="M0.5,19.5 L13.5,1.5" id="Line"></path>
+            <path d="M56.5,19.5 L69.5,0.5" id="Line" transform="translate(63.000000, 10.000000) scale(-1, 1) translate(-63.000000, -10.000000) "></path>
         </g>
+        <path d="M45,38 C41.6666667,43.3333333 39.3333333,47.3333333 38,50 C36,54 36,69 38,75 C40,81 41,84 45,88 C47.6666667,90.6666667 51.3333333,90.6666667 56,88 L61,84 L65,88 C69,90.6666667 72.6666667,91 76,89 C81,86 81.2496509,84 84,75 C86.7503491,66 84,53 83,50 C82.3333333,48 80,44 76,38" id="Path-8" stroke="#979797" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M55.2686149,70.553316 C55.2756449,70.5861955 55.2925776,70.6396864 55.3215144,70.7091346 C55.3583431,70.7975235 55.4071972,70.894909 55.4671845,71 C55.3228504,71 55.1678932,71 55,71 C54.9837301,71 55.1198429,70.9381975 55.2188858,70.7294619 C55.258881,70.6451709 55.2686134,70.5788912 55.2658712,70.5400922 Z M55.4671845,71 C55.7420692,71.4815667 56.2507333,72.1249345 56.9073443,72.8058644 C58.593309,74.5542723 60.7102675,76 61.5,76 C62.3077125,76 64.5347949,74.5279058 66.2560986,72.795226 C66.937189,72.1096343 67.4521831,71.4679838 67.7127737,71 C65.435649,71 65.328059,71 62.56,71 C61.2945455,71 61.2945455,71 60.0562373,71 C57.4007448,71 57.1961435,71 55.4671845,71 Z" id="Path-9" stroke="#64A0CB" stroke-width="2"></path>
     </g>
 </svg>

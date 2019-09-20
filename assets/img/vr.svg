@@ -5,19 +5,12 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="vr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(23.000000, 42.000000)">
-            <path d="M1.5,1.5 L1.5,33.5" id="Line-5" stroke="#979797" stroke-linecap="square"></path>
-            <path d="M1.5,1.5 L1.5,33.5" id="Line-5" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-            <path d="M72.5,1.5 L72.5,33.5" id="Line-5" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-            <path d="M71.5,1 L2,1" id="Line-5" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-            <path d="M29.5,35 L2,35" id="Line-5" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-            <path d="M72.5,35 L45.5,35" id="Line-5" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-            <path d="M28.5,34.5 L36.5,22.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
-            <path d="M37.5,34.5 L45.5,21.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square" transform="translate(41.500000, 28.000000) scale(-1, 1) translate(-41.500000, -28.000000) "></path>
-            <circle id="Oval-2" stroke="#64A0C9" stroke-width="3" cx="19" cy="18" r="9"></circle>
-            <circle id="Oval-2" stroke="#64A0C9" stroke-width="3" cx="19" cy="18" r="9"></circle>
-            <circle id="Oval-2" stroke="#64A0C9" stroke-width="3" cx="54" cy="18" r="9"></circle>
-            <circle id="Oval-2" stroke="#64A0C9" stroke-width="3" cx="54" cy="18" r="9"></circle>
+        <g id="Group" transform="translate(33.000000, 51.000000)" stroke="#64A0C9" stroke-width="3">
+            <circle id="Oval-2" cx="9" cy="9" r="9"></circle>
+            <circle id="Oval-2" cx="9" cy="9" r="9"></circle>
+            <circle id="Oval-2" cx="44" cy="9" r="9"></circle>
+            <circle id="Oval-2" cx="44" cy="9" r="9"></circle>
         </g>
+        <path d="M24.5878099,42.752148 L94.7156232,42.752148 L94.7156232,77.7581672 L69.0397845,77.7581672 C65.7045662,68.6764531 62.5752102,64.135596 59.6517165,64.135596 C56.7282229,64.135596 53.9750029,68.6764531 51.3920564,77.7581672 L24.5878099,77.7581672 L24.5878099,42.752148 Z" id="Path-4" stroke="#979797" stroke-width="3"></path>
     </g>
 </svg>

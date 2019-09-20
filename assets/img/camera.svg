@@ -5,16 +5,12 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="camera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(31.000000, 37.000000)" stroke-width="3">
-            <path d="M57.5,46 L2,46" id="Line" stroke="#64A0CB" stroke-linecap="square"></path>
-            <path d="M1,45.6359327 L1,13.7660306" id="Line" stroke="#64A0CB" stroke-linecap="square"></path>
-            <path d="M45,45.6359327 L45,13.7660306" id="Line" stroke="#64A0CB" stroke-linecap="square"></path>
-            <path d="M16,11.9479118 L21.4212277,1.55827803" id="Line" stroke="#979797" stroke-linecap="square"></path>
-            <path d="M34,11.9479118 L38.5,1.5" id="Line" stroke="#979797" stroke-linecap="square" transform="translate(36.500000, 6.500000) scale(-1, 1) translate(-36.500000, -6.500000) "></path>
-            <path d="M58,45.6359327 L58,13.7660306" id="Line" stroke="#979797" stroke-linecap="square"></path>
-            <path d="M57.5,13 L1,13" id="Line" stroke="#979797" stroke-linecap="square"></path>
-            <path d="M32.5,1 L22.5,1" id="Line" stroke="#979797" stroke-linecap="square"></path>
-            <circle id="Oval" stroke="#64A0CB" cx="23" cy="30" r="8"></circle>
+        <polyline id="Path-5" stroke="#979797" stroke-width="3" points="70.6176915 49.8252227 65.5823211 37.7465345 52.4164335 37.7465345 46.539477 49.4086436"></polyline>
+        <g id="Group" transform="translate(46.000000, 51.000000)" stroke="#64A0CB" stroke-width="3">
+            <path d="M30,32.6359327 L30,0.766030609" id="Line" stroke-linecap="square"></path>
+            <circle id="Oval" cx="8" cy="19" r="8"></circle>
         </g>
+        <polyline id="Path-6" stroke="#979797" stroke-width="3" points="31.4997334 50 89.077062 50 89.077062 86.4837782"></polyline>
+        <polyline id="Path-7" stroke="#64A0CB" stroke-width="3" points="33 51.497413 33 85 90.5617922 85"></polyline>
     </g>
 </svg>

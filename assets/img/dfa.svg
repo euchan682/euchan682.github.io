@@ -4,32 +4,12 @@
     <title>dfa</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="dfa" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Group-3" transform="translate(20.000000, 34.000000)">
-            <g id="Group" transform="translate(54.529110, 26.720760) rotate(-127.000000) translate(-54.529110, -26.720760) translate(38.529110, 6.720760)" stroke="#979797">
-                <path d="M1.4465684,37.8877642 L6.5,28.5" id="Line" stroke-width="3" transform="translate(4.000000, 33.000000) scale(-1, 1) translate(-4.000000, -33.000000) "></path>
-                <path d="M20.5,10.5 L24.5,2.5" id="Line" stroke-width="3" transform="translate(22.500000, 6.500000) scale(-1, 1) translate(-22.500000, -6.500000) "></path>
-                <path d="M26.5,37.5 L30.5,29.5" id="Line" stroke-width="3"></path>
-                <path d="M1.70136449,9.89818498 L5.70136449,1.89818498" id="Line" stroke-width="3"></path>
-                <path d="M24.5,27.5 L24.5,11.5" id="Line-3" stroke-width="3"></path>
-                <path d="M1.5,27.5 L1.5,11.5" id="Line-3" stroke-width="3"></path>
-                <path d="M23.5,26.5 L23.5,16.5" id="Line-3"></path>
-                <path d="M30.3724442,29.5418288 L31.5,15.5" id="Line-3" stroke-width="3"></path>
-                <path d="M7.23472156,1.5 L19.2369613,1.5" id="Line-4" stroke-width="3"></path>
-                <path d="M7.35206711,38.5 L25.5,38.5" id="Line-4" stroke-width="3"></path>
-            </g>
-            <g id="Group-2" transform="translate(26.943791, 26.140298) rotate(39.000000) translate(-26.943791, -26.140298) translate(6.443791, 9.140298)" stroke="#64A0C9">
-                <path d="M6,34 L10,26" id="Line" stroke-width="3" transform="translate(8.000000, 30.000000) rotate(-90.000000) translate(-8.000000, -30.000000) "></path>
-                <path d="M32,15 L36,7" id="Line" stroke-width="3" transform="translate(34.000000, 11.000000) rotate(-90.000000) translate(-34.000000, -11.000000) "></path>
-                <path d="M5,9 L9,1" id="Line" stroke-width="3" transform="translate(7.000000, 5.000000) scale(-1, 1) rotate(-90.000000) translate(-7.000000, -5.000000) "></path>
-                <path d="M32.6293204,33.777146 L36.6293204,25.777146" id="Line" stroke-width="3" transform="translate(34.629320, 29.777146) scale(-1, 1) rotate(-90.000000) translate(-34.629320, -29.777146) "></path>
-                <path d="M21,17 L21,1" id="Line-3" stroke-width="3" transform="translate(21.000000, 9.000000) scale(-1, 1) rotate(-90.000000) translate(-21.000000, -9.000000) "></path>
-                <path d="M21,40 L21,24" id="Line-3" stroke-width="3" transform="translate(21.000000, 32.000000) scale(-1, 1) rotate(-90.000000) translate(-21.000000, -32.000000) "></path>
-                <path d="M19,15 L19,5" id="Line-3" transform="translate(19.000000, 10.000000) scale(-1, 1) rotate(-90.000000) translate(-19.000000, -10.000000) "></path>
-                <path d="M19,7.57906501 L19,-4" id="Line-3" stroke-width="3" transform="translate(19.000000, 2.000000) scale(-1, 1) rotate(-90.000000) translate(-19.000000, -2.000000) "></path>
-                <path d="M31.7099623,20 L45.9224514,20" id="Line-4" stroke-width="3" transform="translate(39.000000, 20.000000) scale(-1, 1) rotate(-90.000000) translate(-39.000000, -20.000000) "></path>
-                <path d="M-7.53665155,17.5 L11.5,17.5" id="Line-4" stroke-width="3" transform="translate(2.000000, 17.500000) scale(-1, 1) rotate(-90.000000) translate(-2.000000, -17.500000) "></path>
-            </g>
+    <g id="dfa" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.969999969" stroke-linecap="round">
+        <g id="Group-3" transform="translate(59.000000, 41.000000)" stroke="#979797" stroke-width="3">
+            <path d="M34.8279257,10.7298262 C31.3177366,7.10578152 27.8273637,4.47856912 24.3568072,2.84818899 C19.1509724,0.402618798 17.6886522,-0.166525276 12.8746664,0.416737362 C8.06068074,1 0.0606807415,11.4021345 0.0606807415,15 C0.0606807415,18.5978655 -0.939319259,18 5.37266794,25.6956021 C11.6846551,33.3912042 17.5765645,37.6797657 18.5592885,38 C19.5420124,38.3202343 24.3568072,40 28.7305536,38.8844631 C34.6698234,37.3696349 36.8861058,32.1258677 37.8966411,27.9028721 C38.5703313,25.0875417 37.133119,21.9858728 33.5850041,18.5978655 L20.0029064,8.35019358" id="Path-2-Copy" transform="translate(19.030340, 19.733993) scale(-1, 1) translate(-19.030340, -19.733993) "></path>
+        </g>
+        <g id="Group-3" transform="translate(42.500000, 61.000000) scale(-1, 1) translate(-42.500000, -61.000000) translate(23.000000, 41.000000)" stroke="#64A0CB" stroke-width="3">
+            <path d="M34.8279257,10.7298262 C31.3177366,7.10578152 27.8273637,4.47856912 24.3568072,2.84818899 C19.1509724,0.402618798 17.6886522,-0.166525276 12.8746664,0.416737362 C8.06068074,1 0.0606807415,11.4021345 0.0606807415,15 C0.0606807415,18.5978655 -0.939319259,18 5.37266794,25.6956021 C11.6846551,33.3912042 17.5765645,37.6797657 18.5592885,38 C19.5420124,38.3202343 24.3568072,40 28.7305536,38.8844631 C34.6698234,37.3696349 36.8861058,32.1258677 37.8966411,27.9028721 C38.5703313,25.0875417 37.133119,21.9858728 33.5850041,18.5978655 L20.0029064,8.35019358" id="Path-2-Copy" transform="translate(19.030340, 19.733993) scale(-1, 1) translate(-19.030340, -19.733993) "></path>
         </g>
     </g>
 </svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410px" height="196px" viewBox="0 0 410 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>timeline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="timeline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M21.5,41.5 L381.5,41.5" id="Line" stroke="#F68F31" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M54.5,37.5 L54.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M87.5,37.5 L87.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M120.5,37.5 L120.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M153.5,37.5 L153.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M186.5,37.5 L186.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M219.5,37.5 L219.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M252.5,37.5 L252.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M285.5,37.5 L285.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M318.5,37.5 L318.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M351.5,37.5 L351.5,45.5" id="Line-2" stroke="#FAC18E" stroke-width="3" stroke-linecap="round"></path>
+        <text id="In-kind-Sponsorships" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="67.1577148" y="80">In-kind Sponsorships</tspan>
+        </text>
+        <path d="M40,69.5 L152.5,69.5" id="Line-3" stroke="#FAC18E" stroke-width="2.5" stroke-linecap="round"></path>
+        <path d="M39,90.5 L319,90.5" id="Line-3" stroke="#FAC18E" stroke-width="2.5" stroke-linecap="round"></path>
+        <text id="Conference-Swag" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="150.322754" y="101">Conference Swag</tspan>
+        </text>
+        <text id="Speaker-Gifts" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="122.952148" y="122">Speaker Gifts</tspan>
+        </text>
+        <text id="Conference-App" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="246.039551" y="139">Conference App</tspan>
+        </text>
+        <text id="Week-1" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="44.2871094" y="55">Week 1</tspan>
+        </text>
+        <text id="Week-2" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="79.2871094" y="55">Week 2</tspan>
+        </text>
+        <text id="Week-3" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="112.287109" y="55">Week 3</tspan>
+        </text>
+        <text id="Week-4" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="143.287109" y="55">Week 4</tspan>
+        </text>
+        <text id="Week-5" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="176.287109" y="55">Week 5</tspan>
+        </text>
+        <text id="Week-6" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="209.287109" y="55">Week 6</tspan>
+        </text>
+        <text id="Week-7" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="242.287109" y="55">Week 7</tspan>
+        </text>
+        <text id="Week-8" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="275.287109" y="55">Week 8</tspan>
+        </text>
+        <text id="Week-9" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="307.287109" y="55">Week 9</tspan>
+        </text>
+        <text id="Week-10" font-family="OpenSans-Regular, Open Sans" font-size="6" font-weight="normal" fill="#F68F31">
+            <tspan x="338.571777" y="55">Week 10</tspan>
+        </text>
+        <circle id="Oval-4" fill="#D8D8D8" cx="40.5" cy="70.5" r="4.5"></circle>
+        <circle id="Oval-4" fill="#D8D8D8" cx="40.5" cy="90.5" r="4.5"></circle>
+        <path d="M40,111.5 L255,111.5" id="Line-3" stroke="#FAC18E" stroke-width="2.5" stroke-linecap="round"></path>
+        <path d="M220,128.5 L316,128.5" id="Line-3" stroke="#FAC18E" stroke-width="2.5" stroke-linecap="round"></path>
+        <path d="M220,128.5 L316,128.5" id="Line-3" stroke="#FAC18E" stroke-width="2.5" stroke-linecap="round"></path>
+        <circle id="Oval-4" fill="#D8D8D8" cx="40.5" cy="111.5" r="4.5"></circle>
+        <circle id="Oval-4" fill="#D8D8D8" cx="219.5" cy="128.5" r="4.5"></circle>
+    </g>
+</svg>

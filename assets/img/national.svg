@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>national</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="national" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(13.000000, 22.000000)" fill="#979797">
+            <text id="DFA" font-family="Gotham-Bold, Gotham" font-size="22.5" font-weight="bold">
+                <tspan x="0" y="20">DFA</tspan>
+            </text>
+            <text id="SUMMIT" font-family="Gotham-Bold, Gotham" font-size="22.5" font-weight="bold">
+                <tspan x="0" y="44">SUMMIT</tspan>
+            </text>
+            <text id="2019" font-family="Gotham-Bold, Gotham" font-size="22.5" font-weight="bold">
+                <tspan x="0" y="68">2019</tspan>
+            </text>
+            <polygon id="Path-11" points="58 8 60.5 0 63 8 73 8 65 13 68 22 60.5 17 53 22 56 13 49 8"></polygon>
+        </g>
+    </g>
+</svg>

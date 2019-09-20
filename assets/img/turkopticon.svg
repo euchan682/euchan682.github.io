@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>turkopticon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="turkopticon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse id="Oval-3" stroke="#979797" stroke-width="3" fill="#FFFFFF" cx="60" cy="44.5" rx="20" ry="20.5"></ellipse>
+        <path d="M54.5,64.5 L45.5,88.5" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="round"></path>
+        <path d="M51.5,71.5 L42.5,95.5" id="Line" stroke="#979797" stroke-width="7" stroke-linecap="round"></path>
+        <path d="M61,59 C64.2183065,58.4483601 66.8849732,57.1150268 69,55 C71.1150268,52.8849732 72.7816935,49.5516399 74,45" id="Path-10" stroke="#64A0CB" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+</svg>
